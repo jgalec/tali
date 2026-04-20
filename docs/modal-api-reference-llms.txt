@@ -1,0 +1,102 @@
+Guide: https://modal.com/docs/guide
+Examples: https://modal.com/docs/examples
+Reference: https://modal.com/docs/reference
+Playground: https://modal.com/playground
+Changelog: https://modal.com/docs/reference/changelog
+API Reference: https://modal.com/docs/reference/modal.App
+modal.App: https://modal.com/docs/reference/modal.App
+modal.Client: https://modal.com/docs/reference/modal.Client
+modal.CloudBucketMount: https://modal.com/docs/reference/modal.CloudBucketMount
+modal.Cls: https://modal.com/docs/reference/modal.Cls
+modal.Cron: https://modal.com/docs/reference/modal.Cron
+modal.Dict: https://modal.com/docs/reference/modal.Dict
+modal.Error: https://modal.com/docs/reference/modal.Error
+modal.FilePatternMatcher: https://modal.com/docs/reference/modal.FilePatternMatcher
+modal.Function: https://modal.com/docs/reference/modal.Function
+modal.FunctionCall: https://modal.com/docs/reference/modal.FunctionCall
+modal.Image: https://modal.com/docs/reference/modal.Image
+modal.Period: https://modal.com/docs/reference/modal.Period
+modal.Probe: https://modal.com/docs/reference/modal.Probe
+modal.Proxy: https://modal.com/docs/reference/modal.Proxy
+modal.Queue: https://modal.com/docs/reference/modal.Queue
+modal.Retries: https://modal.com/docs/reference/modal.Retries
+modal.Sandbox: https://modal.com/docs/reference/modal.Sandbox
+modal.SandboxSnapshot: https://modal.com/docs/reference/modal.SandboxSnapshot
+modal.Secret: https://modal.com/docs/reference/modal.Secret
+modal.Tunnel: https://modal.com/docs/reference/modal.Tunnel
+modal.Volume: https://modal.com/docs/reference/modal.Volume
+modal.asgi\_app: https://modal.com/docs/reference/modal.asgi_app
+modal.batched: https://modal.com/docs/reference/modal.batched
+modal.billing: https://modal.com/docs/reference/modal.billing
+modal.call\_graph: https://modal.com/docs/reference/modal.call_graph
+modal.concurrent: https://modal.com/docs/reference/modal.concurrent
+modal.container\_process: https://modal.com/docs/reference/modal.container_process
+modal.current\_function\_call\_id: https://modal.com/docs/reference/modal.current_function_call_id
+modal.current\_input\_id: https://modal.com/docs/reference/modal.current_input_id
+modal.enable\_output: https://modal.com/docs/reference/modal.enable_output
+modal.enter: https://modal.com/docs/reference/modal.enter
+modal.exit: https://modal.com/docs/reference/modal.exit
+modal.fastapi\_endpoint: https://modal.com/docs/reference/modal.fastapi_endpoint
+modal.file\_io: https://modal.com/docs/reference/modal.file_io
+modal.forward: https://modal.com/docs/reference/modal.forward
+modal.interact: https://modal.com/docs/reference/modal.interact
+modal.io\_streams: https://modal.com/docs/reference/modal.io_streams
+modal.is\_local: https://modal.com/docs/reference/modal.is_local
+modal.method: https://modal.com/docs/reference/modal.method
+modal.parameter: https://modal.com/docs/reference/modal.parameter
+modal.web\_server: https://modal.com/docs/reference/modal.web_server
+modal.wsgi\_app: https://modal.com/docs/reference/modal.wsgi_app
+modal.exception: https://modal.com/docs/reference/modal.exception
+modal.config: https://modal.com/docs/reference/modal.config
+CLI Reference: https://modal.com/docs/reference/cli/app
+modal app: https://modal.com/docs/reference/cli/app
+modal billing: https://modal.com/docs/reference/cli/billing
+modal bootstrap: https://modal.com/docs/reference/cli/bootstrap
+modal changelog: https://modal.com/docs/reference/cli/changelog
+modal config: https://modal.com/docs/reference/cli/config
+modal container: https://modal.com/docs/reference/cli/container
+modal dashboard: https://modal.com/docs/reference/cli/dashboard
+modal deploy: https://modal.com/docs/reference/cli/deploy
+modal dict: https://modal.com/docs/reference/cli/dict
+modal environment: https://modal.com/docs/reference/cli/environment
+modal profile: https://modal.com/docs/reference/cli/profile
+modal queue: https://modal.com/docs/reference/cli/queue
+modal run: https://modal.com/docs/reference/cli/run
+modal secret: https://modal.com/docs/reference/cli/secret
+modal serve: https://modal.com/docs/reference/cli/serve
+modal setup: https://modal.com/docs/reference/cli/setup
+modal shell: https://modal.com/docs/reference/cli/shell
+modal token: https://modal.com/docs/reference/cli/token
+modal volume: https://modal.com/docs/reference/cli/volume
+`modal`: https://pypi.org/project/modal/
+guide: https://modal.com/docs/guide
+example: https://modal.com/docs/examples
+`App`: https://modal.com/docs/reference/modal.App
+`Function`: https://modal.com/docs/reference/modal.Function
+`Cls`: https://modal.com/docs/reference/modal.Cls
+`parameter`: https://modal.com/docs/reference/modal.parameter
+`enter`: https://modal.com/docs/reference/modal.enter
+`exit`: https://modal.com/docs/reference/modal.exit
+`method`: https://modal.com/docs/reference/modal.method
+`fastapi_endpoint`: https://modal.com/docs/reference/modal.fastapi_endpoint
+`asgi_app`: https://modal.com/docs/reference/modal.asgi_app
+`wsgi_app`: https://modal.com/docs/reference/modal.wsgi_app
+`web_server`: https://modal.com/docs/reference/modal.web_server
+`batched`: https://modal.com/docs/reference/modal.batched
+dynamic input batching: https://modal.com/docs/guide/dynamic-batching
+`concurrent`: https://modal.com/docs/reference/modal.concurrent
+input concurrency: https://modal.com/docs/guide/concurrent-inputs
+`Cron`: https://modal.com/docs/reference/modal.Cron
+`Period`: https://modal.com/docs/reference/modal.Period
+`Retries`: https://modal.com/docs/reference/modal.Retries
+`Sandbox`: https://modal.com/docs/reference/modal.Sandbox
+`Image`: https://modal.com/docs/reference/modal.Image
+`Secret`: https://modal.com/docs/reference/modal.Secret
+`Volume`: https://modal.com/docs/reference/modal.Volume
+`CloudBucketMount`: https://modal.com/docs/reference/modal.CloudBucketMount
+`NetworkFileSystem`: https://modal.com/docs/reference/modal.NetworkFileSystem
+`Dict`: https://modal.com/docs/reference/modal.Dict
+`Queue`: https://modal.com/docs/reference/modal.Queue
+`Proxy`: https://modal.com/docs/reference/modal.Proxy
+`forward`: https://modal.com/docs/reference/modal.forward
+Pricing: https://modal.com/pricing
