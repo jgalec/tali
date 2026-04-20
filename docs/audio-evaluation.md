@@ -6,6 +6,8 @@ Source file:
 
 - `services/audio_eval/evaluate_generated_audio.py`
 - `services/audio_eval/modal_speaker_embeddings_app.py`
+- `services/audio_eval/evaluate_tali_likeness.py`
+- `services/audio_eval/modal_pronunciation_whisper_app.py`
 
 ## What it does
 
@@ -25,6 +27,26 @@ It builds a heuristic acoustic profile for each clip using FFmpeg-based measurem
 - spectral rolloff
 
 It then scores each generated clip against the reference bank and writes summary reports.
+
+## Tali-likeness pass
+
+There is also a second evaluator focused on what matters more for this project:
+
+- voice identity
+- pronunciation
+
+Emotion is intentionally excluded from this pass.
+
+Source file:
+
+- `services/audio_eval/evaluate_tali_likeness.py`
+
+This evaluator reuses the speaker-identity score from the main audio evaluator and adds a pronunciation score based on Whisper transcriptions compared against the expected prompt text.
+
+Current blend:
+
+- `70%` identity
+- `30%` pronunciation
 
 ## Optional speaker embeddings with Modal
 
@@ -56,6 +78,32 @@ Optional auth secret expected by the service:
 - `POST /v1/audio/compare`
 
 The local evaluator uses `/v1/audio/embed`.
+
+## Optional pronunciation service with Modal
+
+The Tali-likeness pass can also use a dedicated Whisper transcription service on Modal.
+
+Source file:
+
+- `services/audio_eval/modal_pronunciation_whisper_app.py`
+
+Deploy:
+
+```bash
+modal deploy services/audio_eval/modal_pronunciation_whisper_app.py
+```
+
+Optional auth secret expected by the service:
+
+- Modal secret name: `audio-eval-whisper-auth`
+- env var inside the container: `AUDIO_EVAL_WHISPER_AUTH_TOKEN`
+
+Suggested `.env` values:
+
+```dotenv
+AUDIO_EVAL_ASR_URL=https://your-whisper-url.modal.run
+AUDIO_EVAL_ASR_TOKEN=YOUR_TOKEN
+```
 
 ## Important limitation
 
@@ -102,6 +150,12 @@ python services/audio_eval/evaluate_generated_audio.py
 
 The evaluator reads `C:\Users\juan\Desktop\tali\.env` automatically if it exists.
 
+Tali-likeness pass:
+
+```bash
+python services/audio_eval/evaluate_tali_likeness.py
+```
+
 Optional arguments:
 
 ```bash
@@ -140,6 +194,12 @@ If the speaker-embedding service is enabled, the reports also include:
 - `acoustic_reference_similarity_score`: FFmpeg-based acoustic similarity only
 - `speaker_reference_similarity_score`: speaker-embedding similarity only
 - `speaker_nearest_reference_score`: best matching single reference by speaker embedding
+
+The Tali-likeness pass writes:
+
+- `clip_scores.csv`: per-clip identity, pronunciation, and final Tali-likeness score
+- `versus.csv`: direct `qwen-0.6b` vs `qwen-1.7b` comparison per prompt line
+- `model_summary.csv`: average score per model under the new rubric
 
 Higher is better.
 

@@ -1,0 +1,3 @@
+model,clips,avg_identity_score,avg_pronunciation_score,avg_tali_likeness_score
+qwen-0.6b,25,83.14,99.632,88.088
+qwen-1.7b,25,81.401,99.811,86.924

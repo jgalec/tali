@@ -1,0 +1,29 @@
+{
+  "asr_service_url": "https://rsch--audio-eval-whisper-fastapi-app.modal.run",
+  "asr_service_health": {
+    "status": "ok",
+    "loaded_model": "large-v3",
+    "device": "cuda",
+    "compute_type": "float16",
+    "auth_enabled": true
+  },
+  "identity_weight": 0.7,
+  "pronunciation_weight": 0.3,
+  "emotion_evaluated": false,
+  "model_summary": [
+    {
+      "model": "qwen-0.6b",
+      "clips": 25,
+      "avg_identity_score": 83.14,
+      "avg_pronunciation_score": 99.632,
+      "avg_tali_likeness_score": 88.088
+    },
+    {
+      "model": "qwen-1.7b",
+      "clips": 25,
+      "avg_identity_score": 81.401,
+      "avg_pronunciation_score": 99.811,
+      "avg_tali_likeness_score": 86.924
+    }
+  ]
+}
