@@ -41,3 +41,6 @@ desktop.ini
 # Logs and local oddities
 *.log
 nul
+
+# Local evaluation output
+services/audio_eval/output/

@@ -6,6 +6,7 @@ This folder collects notes about the Tali audio workflow and the Whisper and Voi
 
 - `tali-audio-filtering-workflow.md`: how the Tali audio subset was filtered, transcribed, and cleaned
 - `future-tts-notes.md`: short notes for possible future TTS work
+- `audio-evaluation.md`: how to score generated clips with local acoustic metrics and optional Modal speaker embeddings
 
 ## Whisper
 
