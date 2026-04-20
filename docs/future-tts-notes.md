@@ -3,6 +3,7 @@
 Reference for later:
 
 - Unsloth TTS fine-tuning guide: `https://unsloth.ai/docs/basics/text-to-speech-tts-fine-tuning`
+- `docs/qwen3-tts-notes.md`: current notes on why `Qwen3-TTS` is relevant here
 
 Current status:
 

@@ -14,3 +14,4 @@ Workspace for Tali voice cloning and transcription experiments.
 - `voices/` is ignored and not published
 - extracted game files are not included
 - this repo keeps code, docs, manifests, and selected outputs
+- `docs/use-cases.md` maps the main workflows this repo supports
