@@ -1,0 +1,32 @@
+BioD_EndGm1_110ROMTali_LOC_INT
+- en_us_hench_tali_nortl_culmination_h_00264416_m_wav (00:01:931): Can't blame a girl for trying, though.
+
+BioD_Nor_111DebriefTali_LOC_INT
+- en_us_hench_tali_nortla_debrief_d_00223065_m_wav (00:01:713): I'll be in engineering if you need me.
+- en_us_player_f_nortla_debrief_d_00223076_f_wav (00:01:292): It's all a mask and tally.
+- en_us_player_m_nortla_debrief_d_00223076_m_wav (00:01:160): That's all I'm asking, Tally.
+
+BioD_Nor_320aTali_LOC_INT
+- en_us_hench_tali_nortl_loyalty_01_h_00264445_m_wav (00:01:550): I'm scared, Shepard.
+- en_us_hench_tali_nortl_loyalty_02_h_00264553_m_wav (00:01:328): Thanks for checking on me.
+- en_us_player_f_nortl_loyalty_01_h_00264477_f_wav (00:01:741): Is it because you're working with Cerberus?
+- en_us_player_f_nortl_loyalty_01_h_00264490_f_wav (00:01:381): What happens if you're convicted?
+- en_us_player_f_nortl_loyalty_02_h_00264567_f_wav (00:01:242): I just wanted to check in.
+- en_us_player_f_nortl_loyalty_02_h_00287724_f_wav (00:01:648): I'm sorry you feel that way, Tali.
+- en_us_player_f_nortl_relationship_00_h_00264621_f_wav (00:01:797): Any news yet on the data you sent?
+- en_us_player_m_nortl_loyalty_01_h_00264473_m_wav (00:01:973): Okay, let's go find the flotilla.
+- en_us_player_m_nortl_loyalty_01_h_00264477_m_wav (00:01:517): Is it because you're working with Cerberus?
+- en_us_player_m_nortl_loyalty_01_h_00264479_m_wav (00:01:970): What happens when Aquarian is accused of treason?
+- en_us_player_m_nortl_loyalty_01_h_00264490_m_wav (00:01:227): What happens if you're convicted?
+- en_us_player_m_nortl_loyalty_01_h_00264493_m_wav (00:01:685): So no prison and no death penalty?
+- en_us_player_m_nortl_loyalty_02_h_00264567_m_wav (00:01:280): I just wanted to check in.
+- en_us_player_m_nortl_loyalty_02_h_00264570_m_wav (00:01:806): Are quarry and politics always like that?
+- en_us_player_m_nortl_loyalty_02_h_00287724_m_wav (00:01:358): I'm sorry you feel that way, Tally.
+- en_us_player_m_nortl_relationship_00_h_00264622_m_wav (00:01:440): Tell me about the fleet's admiralty board.
+- en_us_player_m_nortl_relationship_00_h_00264625_m_wav (00:01:918): Having any trouble settling back in on the Normandy?
+
+BioD_Nor_320bTali_LOC_INT
+- en_us_hench_tali_nortl_relationship_03_h_00264659_m_wav (00:01:846): Probably nothing you need to think about, though.
+- en_us_hench_tali_nortl_relationship_03_h_00264663_m_wav (00:01:826): What? No, it's the fever.
+- en_us_hench_tali_nortl_relationship_03_h_00264677_m_wav (00:01:179): See you later, Shepard.
+- en_us_hench_tali_nortl_relationship_04_h_00264790_m_wav (00:01:810): Oh. Well.

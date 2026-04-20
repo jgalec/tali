@@ -1,0 +1,478 @@
+BioD_EndGm1_110ROMTali_LOC_INT
+- en_us_hench_tali_nortl_culmination_h_00264416_m_wav (00:01:931): Can't blame a girl for trying, though.
+
+BioD_Nor_111DebriefTali_LOC_INT
+- en_us_hench_tali_nortla_debrief_d_00223065_m_wav (00:01:713): I'll be in engineering if you need me.
+
+BioD_Nor_320aTali_LOC_INT
+- en_us_hench_tali_nortl_loyalty_01_h_00264445_m_wav (00:01:550): I'm scared, Shepard.
+- en_us_hench_tali_nortl_loyalty_02_h_00264553_m_wav (00:01:328): Thanks for checking on me.
+
+BioD_Nor_320bTali_LOC_INT
+- en_us_hench_tali_nortl_relationship_03_h_00264659_m_wav (00:01:846): Probably nothing you need to think about, though.
+- en_us_hench_tali_nortl_relationship_03_h_00264663_m_wav (00:01:826): What? No, it's the fever.
+- en_us_hench_tali_nortl_relationship_03_h_00264677_m_wav (00:01:179): See you later, Shepard.
+- en_us_hench_tali_nortl_relationship_04_h_00264790_m_wav (00:01:810): Oh. Well.
+- en_us_hench_tali_nortl_relationship_04_h_00287752_m_wav (00:01:936): I should get back to these repairs anyway.
+- en_us_hench_tali_nortl_relationship_05_h_00287802_m_wav (00:01:195): I'll find a way.
+
+BioD_ProFre_201Tali_LOC_INT
+- en_us_hench_tali_profre_tali_intro_d_00203264_m_wav (00:01:569): Put those weapons down!
+- en_us_hench_tali_profre_tali_intro_d_00203941_m_wav (00:01:891): Neither am I, Praza.
+- en_us_hench_tali_profre_tali_intro_d_00309991_m_wav (00:01:756): Wait, Shepard?
+- en_us_hench_tali_ss_global_hench_tali_00285102_m_wav (00:01:237): Engaging target.
+- en_us_hench_tali_ss_global_hench_tali_00285112_m_wav (00:01:195): Negative, Shepard.
+- en_us_hench_tali_ss_global_hench_tali_00285113_m_wav (00:01:064): Can't get there.
+- en_us_hench_tali_ss_global_hench_tali_00285162_m_wav (00:01:129): I've got a rupture.
+- en_us_hench_tali_ss_global_hench_tali_00285168_m_wav (00:01:108): Get ready to fight!
+- en_us_hench_tali_ss_global_hench_tali_00285179_m_wav (00:01:015): Trouble to the right.
+- en_us_hench_tali_ss_global_hench_tali_00285201_m_wav (00:01:076): Looks like we're clear.
+- en_us_hench_tali_ss_global_hench_tali_00285202_m_wav (00:01:141): That's the last of them.
+- en_us_hench_tali_ss_global_hench_tali_00285231_m_wav (00:01:146): AHHHHH!
+- en_us_hench_tali_ss_global_hench_tali_00285233_m_wav (00:01:328): HUH! UGH!
+- en_us_hench_tali_ss_global_hench_tali_00285234_m_wav (00:01:862): Help!
+- en_us_hench_tali_ss_global_hench_tali_00285235_m_wav (00:01:453): H-UGH!
+- en_us_hench_tali_ss_global_hench_tali_00285236_m_wav (00:01:779): Ow!
+- en_us_hench_tali_ss_global_hench_tali_00285237_m_wav (00:01:443): Oh, fuck!
+- en_us_hench_tali_ss_global_hench_tali_00285239_m_wav (00:01:459): Ah!
+- en_us_hench_tali_ss_global_hench_tali_00285242_m_wav (00:01:041): Garrus is down.
+- en_us_hench_tali_ss_global_hench_tali_00285245_m_wav (00:01:005): Grunt is down.
+- en_us_hench_tali_ss_global_hench_tali_00285246_m_wav (00:01:022): Jacob is down.
+- en_us_hench_tali_ss_global_hench_tali_00285250_m_wav (00:01:080): Morinth is down.
+- en_us_hench_tali_ss_global_hench_tali_00285252_m_wav (00:01:159): Samara is down.
+- en_us_hench_tali_ss_global_hench_tali_00285255_m_wav (00:01:111): Kasumi's down.
+- en_us_hench_tali_ss_global_hench_tali_00285261_m_wav (00:01:048): Miranda is down.
+- en_us_hench_tali_ss_global_hench_tali_00289235_m_wav (00:01:196): Moving to position.
+- en_us_hench_tali_ss_global_hench_tali_00289237_m_wav (00:01:119): Switching to shotgun.
+- en_us_hench_tali_ss_global_hench_tali_00289251_m_wav (00:01:124): Krogan coming at us.
+- en_us_hench_tali_ss_global_hench_tali_00289252_m_wav (00:01:041): Charging Krogan.
+- en_us_hench_tali_ss_global_hench_tali_00289253_m_wav (00:01:142): Husk coming our way.
+- en_us_hench_tali_ss_global_hench_tali_00289255_m_wav (00:01:163): Varen, headed our way.
+- en_us_hench_tali_ss_global_hench_tali_00289263_m_wav (00:01:064): They're not dead yet.
+- en_us_hench_tali_ss_global_hench_tali_00289266_m_wav (00:01:065): It's still alive.
+- en_us_hench_tali_ss_global_hench_tali_00289268_m_wav (00:01:159): The Krogan's back up!
+- en_us_hench_tali_ss_global_hench_tali_00289269_m_wav (00:01:329): The Krogan's still alive.
+- en_us_hench_tali_ss_global_hench_tali_00289271_m_wav (00:01:536): We need to weaken the shields!
+- en_us_hench_tali_ss_global_hench_tali_00289272_m_wav (00:01:242): The shields are too strong.
+- en_us_hench_tali_ss_global_hench_tali_00289273_m_wav (00:01:121): Take down those shields!
+- en_us_hench_tali_ss_global_hench_tali_00289274_m_wav (00:01:033): Disable the shield.
+- en_us_hench_tali_ss_global_hench_tali_00289276_m_wav (00:01:411): That armor's too heavy!
+- en_us_hench_tali_ss_global_hench_tali_00289277_m_wav (00:01:643): I'm barely penetrating the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289278_m_wav (00:01:346): We need to weaken the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289279_m_wav (00:01:320): Have to punch through the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289302_m_wav (00:01:346): I've disabled their shields.
+- en_us_hench_tali_ss_global_hench_tali_00289303_m_wav (00:01:462): Now, while their shields are down!
+- en_us_hench_tali_ss_global_hench_tali_00289304_m_wav (00:01:062): I got their shields.
+- en_us_hench_tali_ss_global_hench_tali_00314362_m_wav (00:01:342): Watch out! Heavy mech!
+- en_us_hench_tali_ss_global_hench_tali_00314363_m_wav (00:01:168): One's still standing.
+- en_us_hench_tali_ss_global_hench_tali_00314365_m_wav (00:01:226): We're clear for the moment.
+- en_us_hench_tali_ss_global_hench_tali_00314370_m_wav (00:01:355): We need to try something else.
+- en_us_hench_tali_ss_global_hench_tali_00314374_m_wav (00:01:132): It's going to explode!
+- en_us_hench_tali_ss_global_hench_tali_00314377_m_wav (00:01:112): Just you and me now.
+- en_us_hench_tali_ss_global_hench_tali_00314378_m_wav (00:01:107): Down to the two of us!
+- en_us_hench_tali_ss_global_hench_tali_00318665_m_wav (00:01:107): Watch for heavy fire.
+- en_us_hench_tali_ss_global_hench_tali_00331240_m_wav (00:01:155): Hacking their systems.
+- en_us_hench_tali_ss_global_hench_tali_00331241_m_wav (00:01:201): Hacking their systems.
+- en_us_hench_tali_ss_global_hench_tali_00331242_m_wav (00:01:042): I'm hacking that one.
+- en_us_hench_tali_ss_global_hench_tali_00331243_m_wav (00:01:018): I'm hacking that one.
+- en_us_hench_tali_ss_global_hench_tali_00331249_m_wav (00:01:103): Overriding the Geth.
+- en_us_hench_tali_ss_global_hench_tali_00331250_m_wav (00:01:283): Overriding the Geth.
+- en_us_hench_tali_ss_global_hench_tali_00331251_m_wav (00:01:524): We made you weak and break you.
+- en_us_hench_tali_ss_global_hench_tali_00331252_m_wav (00:01:604): We made you, we can break you.
+- en_us_hench_tali_ss_global_hench_tali_00331255_m_wav (00:01:543): Disabling the Mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331256_m_wav (00:01:663): Disabling the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331257_m_wav (00:01:524): I'll hit the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331258_m_wav (00:01:362): I'll hit the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331260_m_wav (00:01:237): Draining their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331261_m_wav (00:01:028): Draining their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331262_m_wav (00:01:140): Their shields are mine.
+- en_us_hench_tali_ss_global_hench_tali_00331263_m_wav (00:01:176): Their shields are mine!
+- en_us_hench_tali_ss_global_hench_tali_00331264_m_wav (00:01:235): Leave the shields to me.
+- en_us_hench_tali_ss_global_hench_tali_00331265_m_wav (00:01:290): Leave the shields to me!
+- en_us_hench_tali_ss_global_hench_tali_00331266_m_wav (00:01:196): I'll hack their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331267_m_wav (00:01:133): I'll hack their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331270_m_wav (00:01:552): Deploying combat drone.
+- en_us_hench_tali_ss_global_hench_tali_00331271_m_wav (00:01:112): Combat drone away.
+- en_us_hench_tali_ss_global_hench_tali_00331272_m_wav (00:01:309): Combat drone away.
+- en_us_hench_tali_ss_global_hench_tali_00331273_m_wav (00:01:071): Combat drone ready.
+- en_us_hench_tali_ss_global_hench_tali_00331274_m_wav (00:01:240): Combat drone ready.
+- en_us_hench_tali_ss_global_hench_tali_00331275_m_wav (00:01:271): This should soften them up.
+- en_us_hench_tali_ss_global_hench_tali_00331276_m_wav (00:01:279): This should soften them up.
+- en_us_hench_tali_ss_global_hench_tali_00331277_m_wav (00:01:832): Go get him, Chatika! Good girl!
+- en_us_hench_tali_ss_global_hench_tali_00331280_m_wav (00:01:278): They're all yours, Chatika.
+- en_us_hench_tali_ss_global_hench_tali_00331282_m_wav (00:01:259): Enemy combat drones.
+- en_us_hench_tali_ss_global_hench_tali_00331284_m_wav (00:01:075): Hostile drones!
+- en_us_hench_tali_ss_global_hench_tali_00331287_m_wav (00:01:785): Watch out! That's not my drone!
+- en_us_hench_tali_ss_global_hench_tali_00331288_m_wav (00:01:474): Hey, that's not Chatika!
+- en_us_hench_tali_ss_global_hench_tali_00332271_m_wav (00:01:069): Watch out, Shepard!
+- en_us_hench_tali_ss_global_hench_tali_00332272_m_wav (00:01:214): Shepard, back off!
+- en_us_hench_tali_ss_global_hench_tali_00332273_m_wav (00:01:260): Shepard, back off!
+- en_us_hench_tali_ss_global_hench_tali_00332275_m_wav (00:01:058): Allied fire!
+- en_us_hench_tali_ss_global_hench_tali_00334310_m_wav (00:01:074): Suppressing fire!
+- en_us_player_f_profre_tali_intro_d_00203993_f_wav (00:01:583): Make sure to keep in radio contact.
+- en_us_player_m_profre_tali_intro_d_00203993_m_wav (00:01:650): Make sure to keep in radio contact.
+- en_us_profre_quar_leader_profre_tali_intro_d_00203931_m_wav (00:01:291): We saw him when we landed.
+
+BioH_END_Tali_00_LOC_INT
+- en_us_hench_tali_ss_global_hench_tali_00285102_m_wav (00:01:237): Engaging target.
+- en_us_hench_tali_ss_global_hench_tali_00285112_m_wav (00:01:195): Negative, Shepard.
+- en_us_hench_tali_ss_global_hench_tali_00285113_m_wav (00:01:064): Can't get there.
+- en_us_hench_tali_ss_global_hench_tali_00285162_m_wav (00:01:129): I've got a rupture.
+- en_us_hench_tali_ss_global_hench_tali_00285168_m_wav (00:01:108): Get ready to fight!
+- en_us_hench_tali_ss_global_hench_tali_00285179_m_wav (00:01:015): Trouble to the right.
+- en_us_hench_tali_ss_global_hench_tali_00285201_m_wav (00:01:076): Looks like we're clear.
+- en_us_hench_tali_ss_global_hench_tali_00285202_m_wav (00:01:141): That's the last of them.
+- en_us_hench_tali_ss_global_hench_tali_00285231_m_wav (00:01:146): AHHHHH!
+- en_us_hench_tali_ss_global_hench_tali_00285233_m_wav (00:01:328): HUH! UGH!
+- en_us_hench_tali_ss_global_hench_tali_00285234_m_wav (00:01:862): Help!
+- en_us_hench_tali_ss_global_hench_tali_00285235_m_wav (00:01:453): H-UGH!
+- en_us_hench_tali_ss_global_hench_tali_00285236_m_wav (00:01:779): Ow!
+- en_us_hench_tali_ss_global_hench_tali_00285237_m_wav (00:01:443): Oh, fuck!
+- en_us_hench_tali_ss_global_hench_tali_00285239_m_wav (00:01:459): Ah!
+- en_us_hench_tali_ss_global_hench_tali_00285242_m_wav (00:01:041): Garrus is down.
+- en_us_hench_tali_ss_global_hench_tali_00285245_m_wav (00:01:005): Grunt is down.
+- en_us_hench_tali_ss_global_hench_tali_00285246_m_wav (00:01:022): Jacob is down.
+- en_us_hench_tali_ss_global_hench_tali_00285250_m_wav (00:01:080): Morinth is down.
+- en_us_hench_tali_ss_global_hench_tali_00285252_m_wav (00:01:159): Samara is down.
+- en_us_hench_tali_ss_global_hench_tali_00285255_m_wav (00:01:111): Kasumi's down.
+- en_us_hench_tali_ss_global_hench_tali_00285261_m_wav (00:01:048): Miranda is down.
+- en_us_hench_tali_ss_global_hench_tali_00289235_m_wav (00:01:196): Moving to position.
+- en_us_hench_tali_ss_global_hench_tali_00289237_m_wav (00:01:119): Switching to shotgun.
+- en_us_hench_tali_ss_global_hench_tali_00289251_m_wav (00:01:124): Krogan coming at us.
+- en_us_hench_tali_ss_global_hench_tali_00289252_m_wav (00:01:041): Charging Krogan.
+- en_us_hench_tali_ss_global_hench_tali_00289253_m_wav (00:01:142): Husk coming our way.
+- en_us_hench_tali_ss_global_hench_tali_00289255_m_wav (00:01:163): Varen, headed our way.
+- en_us_hench_tali_ss_global_hench_tali_00289263_m_wav (00:01:064): They're not dead yet.
+- en_us_hench_tali_ss_global_hench_tali_00289266_m_wav (00:01:065): It's still alive.
+- en_us_hench_tali_ss_global_hench_tali_00289268_m_wav (00:01:159): The Krogan's back up!
+- en_us_hench_tali_ss_global_hench_tali_00289269_m_wav (00:01:329): The Krogan's still alive.
+- en_us_hench_tali_ss_global_hench_tali_00289271_m_wav (00:01:536): We need to weaken the shields!
+- en_us_hench_tali_ss_global_hench_tali_00289272_m_wav (00:01:242): The shields are too strong.
+- en_us_hench_tali_ss_global_hench_tali_00289273_m_wav (00:01:121): Take down those shields!
+- en_us_hench_tali_ss_global_hench_tali_00289274_m_wav (00:01:033): Disable the shield.
+- en_us_hench_tali_ss_global_hench_tali_00289276_m_wav (00:01:411): That armor's too heavy!
+- en_us_hench_tali_ss_global_hench_tali_00289277_m_wav (00:01:643): I'm barely penetrating the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289278_m_wav (00:01:346): We need to weaken the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289279_m_wav (00:01:320): Have to punch through the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289302_m_wav (00:01:346): I've disabled their shields.
+- en_us_hench_tali_ss_global_hench_tali_00289303_m_wav (00:01:462): Now, while their shields are down!
+- en_us_hench_tali_ss_global_hench_tali_00289304_m_wav (00:01:062): I got their shields.
+- en_us_hench_tali_ss_global_hench_tali_00314362_m_wav (00:01:342): Watch out! Heavy mech!
+- en_us_hench_tali_ss_global_hench_tali_00314363_m_wav (00:01:168): One's still standing.
+- en_us_hench_tali_ss_global_hench_tali_00314365_m_wav (00:01:226): We're clear for the moment.
+- en_us_hench_tali_ss_global_hench_tali_00314370_m_wav (00:01:355): We need to try something else.
+- en_us_hench_tali_ss_global_hench_tali_00314374_m_wav (00:01:132): It's going to explode!
+- en_us_hench_tali_ss_global_hench_tali_00314377_m_wav (00:01:112): Just you and me now.
+- en_us_hench_tali_ss_global_hench_tali_00314378_m_wav (00:01:107): Down to the two of us!
+- en_us_hench_tali_ss_global_hench_tali_00318665_m_wav (00:01:107): Watch for heavy fire.
+- en_us_hench_tali_ss_global_hench_tali_00331240_m_wav (00:01:155): Hacking their systems.
+- en_us_hench_tali_ss_global_hench_tali_00331241_m_wav (00:01:201): Hacking their systems.
+- en_us_hench_tali_ss_global_hench_tali_00331242_m_wav (00:01:042): I'm hacking that one.
+- en_us_hench_tali_ss_global_hench_tali_00331243_m_wav (00:01:018): I'm hacking that one.
+- en_us_hench_tali_ss_global_hench_tali_00331249_m_wav (00:01:103): Overriding the Geth.
+- en_us_hench_tali_ss_global_hench_tali_00331250_m_wav (00:01:283): Overriding the Geth.
+- en_us_hench_tali_ss_global_hench_tali_00331251_m_wav (00:01:524): We made you weak and break you.
+- en_us_hench_tali_ss_global_hench_tali_00331252_m_wav (00:01:604): We made you, we can break you.
+- en_us_hench_tali_ss_global_hench_tali_00331255_m_wav (00:01:543): Disabling the Mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331256_m_wav (00:01:663): Disabling the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331257_m_wav (00:01:524): I'll hit the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331258_m_wav (00:01:362): I'll hit the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331260_m_wav (00:01:237): Draining their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331261_m_wav (00:01:028): Draining their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331262_m_wav (00:01:140): Their shields are mine.
+- en_us_hench_tali_ss_global_hench_tali_00331263_m_wav (00:01:176): Their shields are mine!
+- en_us_hench_tali_ss_global_hench_tali_00331264_m_wav (00:01:235): Leave the shields to me.
+- en_us_hench_tali_ss_global_hench_tali_00331265_m_wav (00:01:290): Leave the shields to me!
+- en_us_hench_tali_ss_global_hench_tali_00331266_m_wav (00:01:196): I'll hack their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331267_m_wav (00:01:133): I'll hack their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331270_m_wav (00:01:552): Deploying combat drone.
+- en_us_hench_tali_ss_global_hench_tali_00331271_m_wav (00:01:112): Combat drone away.
+- en_us_hench_tali_ss_global_hench_tali_00331272_m_wav (00:01:309): Combat drone away.
+- en_us_hench_tali_ss_global_hench_tali_00331273_m_wav (00:01:071): Combat drone ready.
+- en_us_hench_tali_ss_global_hench_tali_00331274_m_wav (00:01:240): Combat drone ready.
+- en_us_hench_tali_ss_global_hench_tali_00331275_m_wav (00:01:271): This should soften them up.
+- en_us_hench_tali_ss_global_hench_tali_00331276_m_wav (00:01:279): This should soften them up.
+- en_us_hench_tali_ss_global_hench_tali_00331277_m_wav (00:01:832): Go get him, Chatika! Good girl!
+- en_us_hench_tali_ss_global_hench_tali_00331280_m_wav (00:01:278): They're all yours, Chatika.
+- en_us_hench_tali_ss_global_hench_tali_00331282_m_wav (00:01:259): Enemy combat drones.
+- en_us_hench_tali_ss_global_hench_tali_00331284_m_wav (00:01:075): Hostile drones!
+- en_us_hench_tali_ss_global_hench_tali_00331287_m_wav (00:01:785): Watch out! That's not my drone!
+- en_us_hench_tali_ss_global_hench_tali_00331288_m_wav (00:01:474): Hey, that's not Chatika!
+- en_us_hench_tali_ss_global_hench_tali_00332271_m_wav (00:01:069): Watch out, Shepard!
+- en_us_hench_tali_ss_global_hench_tali_00332272_m_wav (00:01:214): Shepard, back off!
+- en_us_hench_tali_ss_global_hench_tali_00332273_m_wav (00:01:260): Shepard, back off!
+- en_us_hench_tali_ss_global_hench_tali_00332275_m_wav (00:01:058): Allied fire!
+- en_us_hench_tali_ss_global_hench_tali_00334310_m_wav (00:01:074): Suppressing fire!
+
+BioH_END_Tali_01_LOC_INT
+- en_us_hench_tali_ss_global_hench_tali_00285102_m_wav (00:01:237): Engaging target.
+- en_us_hench_tali_ss_global_hench_tali_00285112_m_wav (00:01:195): Negative, Shepard.
+- en_us_hench_tali_ss_global_hench_tali_00285113_m_wav (00:01:064): Can't get there.
+- en_us_hench_tali_ss_global_hench_tali_00285162_m_wav (00:01:129): I've got a rupture.
+- en_us_hench_tali_ss_global_hench_tali_00285168_m_wav (00:01:108): Get ready to fight!
+- en_us_hench_tali_ss_global_hench_tali_00285179_m_wav (00:01:015): Trouble to the right.
+- en_us_hench_tali_ss_global_hench_tali_00285201_m_wav (00:01:076): Looks like we're clear.
+- en_us_hench_tali_ss_global_hench_tali_00285202_m_wav (00:01:141): That's the last of them.
+- en_us_hench_tali_ss_global_hench_tali_00285231_m_wav (00:01:146): AHHHHH!
+- en_us_hench_tali_ss_global_hench_tali_00285233_m_wav (00:01:328): HUH! UGH!
+- en_us_hench_tali_ss_global_hench_tali_00285234_m_wav (00:01:862): Help!
+- en_us_hench_tali_ss_global_hench_tali_00285235_m_wav (00:01:453): H-UGH!
+- en_us_hench_tali_ss_global_hench_tali_00285236_m_wav (00:01:779): Ow!
+- en_us_hench_tali_ss_global_hench_tali_00285237_m_wav (00:01:443): Oh, fuck!
+- en_us_hench_tali_ss_global_hench_tali_00285239_m_wav (00:01:459): Ah!
+- en_us_hench_tali_ss_global_hench_tali_00285242_m_wav (00:01:041): Garrus is down.
+- en_us_hench_tali_ss_global_hench_tali_00285245_m_wav (00:01:005): Grunt is down.
+- en_us_hench_tali_ss_global_hench_tali_00285246_m_wav (00:01:022): Jacob is down.
+- en_us_hench_tali_ss_global_hench_tali_00285250_m_wav (00:01:080): Morinth is down.
+- en_us_hench_tali_ss_global_hench_tali_00285252_m_wav (00:01:159): Samara is down.
+- en_us_hench_tali_ss_global_hench_tali_00285255_m_wav (00:01:111): Kasumi's down.
+- en_us_hench_tali_ss_global_hench_tali_00285261_m_wav (00:01:048): Miranda is down.
+- en_us_hench_tali_ss_global_hench_tali_00289235_m_wav (00:01:196): Moving to position.
+- en_us_hench_tali_ss_global_hench_tali_00289237_m_wav (00:01:119): Switching to shotgun.
+- en_us_hench_tali_ss_global_hench_tali_00289251_m_wav (00:01:124): Krogan coming at us.
+- en_us_hench_tali_ss_global_hench_tali_00289252_m_wav (00:01:041): Charging Krogan.
+- en_us_hench_tali_ss_global_hench_tali_00289253_m_wav (00:01:142): Husk coming our way.
+- en_us_hench_tali_ss_global_hench_tali_00289255_m_wav (00:01:163): Varen, headed our way.
+- en_us_hench_tali_ss_global_hench_tali_00289263_m_wav (00:01:064): They're not dead yet.
+- en_us_hench_tali_ss_global_hench_tali_00289266_m_wav (00:01:065): It's still alive.
+- en_us_hench_tali_ss_global_hench_tali_00289268_m_wav (00:01:159): The Krogan's back up!
+- en_us_hench_tali_ss_global_hench_tali_00289269_m_wav (00:01:329): The Krogan's still alive.
+- en_us_hench_tali_ss_global_hench_tali_00289271_m_wav (00:01:536): We need to weaken the shields!
+- en_us_hench_tali_ss_global_hench_tali_00289272_m_wav (00:01:242): The shields are too strong.
+- en_us_hench_tali_ss_global_hench_tali_00289273_m_wav (00:01:121): Take down those shields!
+- en_us_hench_tali_ss_global_hench_tali_00289274_m_wav (00:01:033): Disable the shield.
+- en_us_hench_tali_ss_global_hench_tali_00289276_m_wav (00:01:411): That armor's too heavy!
+- en_us_hench_tali_ss_global_hench_tali_00289277_m_wav (00:01:643): I'm barely penetrating the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289278_m_wav (00:01:346): We need to weaken the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289279_m_wav (00:01:320): Have to punch through the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289302_m_wav (00:01:346): I've disabled their shields.
+- en_us_hench_tali_ss_global_hench_tali_00289303_m_wav (00:01:462): Now, while their shields are down!
+- en_us_hench_tali_ss_global_hench_tali_00289304_m_wav (00:01:062): I got their shields.
+- en_us_hench_tali_ss_global_hench_tali_00314362_m_wav (00:01:342): Watch out! Heavy mech!
+- en_us_hench_tali_ss_global_hench_tali_00314363_m_wav (00:01:168): One's still standing.
+- en_us_hench_tali_ss_global_hench_tali_00314365_m_wav (00:01:226): We're clear for the moment.
+- en_us_hench_tali_ss_global_hench_tali_00314370_m_wav (00:01:355): We need to try something else.
+- en_us_hench_tali_ss_global_hench_tali_00314374_m_wav (00:01:132): It's going to explode!
+- en_us_hench_tali_ss_global_hench_tali_00314377_m_wav (00:01:112): Just you and me now.
+- en_us_hench_tali_ss_global_hench_tali_00314378_m_wav (00:01:107): Down to the two of us!
+- en_us_hench_tali_ss_global_hench_tali_00318665_m_wav (00:01:107): Watch for heavy fire.
+- en_us_hench_tali_ss_global_hench_tali_00331240_m_wav (00:01:155): Hacking their systems.
+- en_us_hench_tali_ss_global_hench_tali_00331241_m_wav (00:01:201): Hacking their systems.
+- en_us_hench_tali_ss_global_hench_tali_00331242_m_wav (00:01:042): I'm hacking that one.
+- en_us_hench_tali_ss_global_hench_tali_00331243_m_wav (00:01:018): I'm hacking that one.
+- en_us_hench_tali_ss_global_hench_tali_00331249_m_wav (00:01:103): Overriding the Geth.
+- en_us_hench_tali_ss_global_hench_tali_00331250_m_wav (00:01:283): Overriding the Geth.
+- en_us_hench_tali_ss_global_hench_tali_00331251_m_wav (00:01:524): We made you weak and break you.
+- en_us_hench_tali_ss_global_hench_tali_00331252_m_wav (00:01:604): We made you, we can break you.
+- en_us_hench_tali_ss_global_hench_tali_00331255_m_wav (00:01:543): Disabling the Mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331256_m_wav (00:01:663): Disabling the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331257_m_wav (00:01:524): I'll hit the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331258_m_wav (00:01:362): I'll hit the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331260_m_wav (00:01:237): Draining their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331261_m_wav (00:01:028): Draining their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331262_m_wav (00:01:140): Their shields are mine.
+- en_us_hench_tali_ss_global_hench_tali_00331263_m_wav (00:01:176): Their shields are mine!
+- en_us_hench_tali_ss_global_hench_tali_00331264_m_wav (00:01:235): Leave the shields to me.
+- en_us_hench_tali_ss_global_hench_tali_00331265_m_wav (00:01:290): Leave the shields to me!
+- en_us_hench_tali_ss_global_hench_tali_00331266_m_wav (00:01:196): I'll hack their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331267_m_wav (00:01:133): I'll hack their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331270_m_wav (00:01:552): Deploying combat drone.
+- en_us_hench_tali_ss_global_hench_tali_00331271_m_wav (00:01:112): Combat drone away.
+- en_us_hench_tali_ss_global_hench_tali_00331272_m_wav (00:01:309): Combat drone away.
+- en_us_hench_tali_ss_global_hench_tali_00331273_m_wav (00:01:071): Combat drone ready.
+- en_us_hench_tali_ss_global_hench_tali_00331274_m_wav (00:01:240): Combat drone ready.
+- en_us_hench_tali_ss_global_hench_tali_00331275_m_wav (00:01:271): This should soften them up.
+- en_us_hench_tali_ss_global_hench_tali_00331276_m_wav (00:01:279): This should soften them up.
+- en_us_hench_tali_ss_global_hench_tali_00331277_m_wav (00:01:832): Go get him, Chatika! Good girl!
+- en_us_hench_tali_ss_global_hench_tali_00331280_m_wav (00:01:278): They're all yours, Chatika.
+- en_us_hench_tali_ss_global_hench_tali_00331282_m_wav (00:01:259): Enemy combat drones.
+- en_us_hench_tali_ss_global_hench_tali_00331284_m_wav (00:01:075): Hostile drones!
+- en_us_hench_tali_ss_global_hench_tali_00331287_m_wav (00:01:785): Watch out! That's not my drone!
+- en_us_hench_tali_ss_global_hench_tali_00331288_m_wav (00:01:474): Hey, that's not Chatika!
+- en_us_hench_tali_ss_global_hench_tali_00332271_m_wav (00:01:069): Watch out, Shepard!
+- en_us_hench_tali_ss_global_hench_tali_00332272_m_wav (00:01:214): Shepard, back off!
+- en_us_hench_tali_ss_global_hench_tali_00332273_m_wav (00:01:260): Shepard, back off!
+- en_us_hench_tali_ss_global_hench_tali_00332275_m_wav (00:01:058): Allied fire!
+- en_us_hench_tali_ss_global_hench_tali_00334310_m_wav (00:01:074): Suppressing fire!
+
+BioH_Tali_00_LOC_INT
+- en_us_hench_tali_ss_global_hench_tali_00285102_m_wav (00:01:237): Engaging target.
+- en_us_hench_tali_ss_global_hench_tali_00285112_m_wav (00:01:195): Negative, Shepard.
+- en_us_hench_tali_ss_global_hench_tali_00285113_m_wav (00:01:064): Can't get there.
+- en_us_hench_tali_ss_global_hench_tali_00285162_m_wav (00:01:129): I've got a rupture.
+- en_us_hench_tali_ss_global_hench_tali_00285168_m_wav (00:01:108): Get ready to fight!
+- en_us_hench_tali_ss_global_hench_tali_00285179_m_wav (00:01:015): Trouble to the right.
+- en_us_hench_tali_ss_global_hench_tali_00285201_m_wav (00:01:076): Looks like we're clear.
+- en_us_hench_tali_ss_global_hench_tali_00285202_m_wav (00:01:141): That's the last of them.
+- en_us_hench_tali_ss_global_hench_tali_00285231_m_wav (00:01:146): AHHHHH!
+- en_us_hench_tali_ss_global_hench_tali_00285233_m_wav (00:01:328): HUH! UGH!
+- en_us_hench_tali_ss_global_hench_tali_00285234_m_wav (00:01:862): Help!
+- en_us_hench_tali_ss_global_hench_tali_00285235_m_wav (00:01:453): H-UGH!
+- en_us_hench_tali_ss_global_hench_tali_00285236_m_wav (00:01:779): Ow!
+- en_us_hench_tali_ss_global_hench_tali_00285237_m_wav (00:01:443): Oh, fuck!
+- en_us_hench_tali_ss_global_hench_tali_00285239_m_wav (00:01:459): Ah!
+- en_us_hench_tali_ss_global_hench_tali_00285242_m_wav (00:01:041): Garrus is down.
+- en_us_hench_tali_ss_global_hench_tali_00285245_m_wav (00:01:005): Grunt is down.
+- en_us_hench_tali_ss_global_hench_tali_00285246_m_wav (00:01:022): Jacob is down.
+- en_us_hench_tali_ss_global_hench_tali_00285250_m_wav (00:01:080): Morinth is down.
+- en_us_hench_tali_ss_global_hench_tali_00285252_m_wav (00:01:159): Samara is down.
+- en_us_hench_tali_ss_global_hench_tali_00285255_m_wav (00:01:111): Kasumi's down.
+- en_us_hench_tali_ss_global_hench_tali_00285261_m_wav (00:01:048): Miranda is down.
+- en_us_hench_tali_ss_global_hench_tali_00289235_m_wav (00:01:196): Moving to position.
+- en_us_hench_tali_ss_global_hench_tali_00289237_m_wav (00:01:119): Switching to shotgun.
+- en_us_hench_tali_ss_global_hench_tali_00289251_m_wav (00:01:124): Krogan coming at us.
+- en_us_hench_tali_ss_global_hench_tali_00289252_m_wav (00:01:041): Charging Krogan.
+- en_us_hench_tali_ss_global_hench_tali_00289253_m_wav (00:01:142): Husk coming our way.
+- en_us_hench_tali_ss_global_hench_tali_00289255_m_wav (00:01:163): Varen, headed our way.
+- en_us_hench_tali_ss_global_hench_tali_00289263_m_wav (00:01:064): They're not dead yet.
+- en_us_hench_tali_ss_global_hench_tali_00289266_m_wav (00:01:065): It's still alive.
+- en_us_hench_tali_ss_global_hench_tali_00289268_m_wav (00:01:159): The Krogan's back up!
+- en_us_hench_tali_ss_global_hench_tali_00289269_m_wav (00:01:329): The Krogan's still alive.
+- en_us_hench_tali_ss_global_hench_tali_00289271_m_wav (00:01:536): We need to weaken the shields!
+- en_us_hench_tali_ss_global_hench_tali_00289272_m_wav (00:01:242): The shields are too strong.
+- en_us_hench_tali_ss_global_hench_tali_00289273_m_wav (00:01:121): Take down those shields!
+- en_us_hench_tali_ss_global_hench_tali_00289274_m_wav (00:01:033): Disable the shield.
+- en_us_hench_tali_ss_global_hench_tali_00289276_m_wav (00:01:411): That armor's too heavy!
+- en_us_hench_tali_ss_global_hench_tali_00289277_m_wav (00:01:643): I'm barely penetrating the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289278_m_wav (00:01:346): We need to weaken the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289279_m_wav (00:01:320): Have to punch through the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289302_m_wav (00:01:346): I've disabled their shields.
+- en_us_hench_tali_ss_global_hench_tali_00289303_m_wav (00:01:462): Now, while their shields are down!
+- en_us_hench_tali_ss_global_hench_tali_00289304_m_wav (00:01:062): I got their shields.
+- en_us_hench_tali_ss_global_hench_tali_00314362_m_wav (00:01:342): Watch out! Heavy mech!
+- en_us_hench_tali_ss_global_hench_tali_00314363_m_wav (00:01:168): One's still standing.
+- en_us_hench_tali_ss_global_hench_tali_00314365_m_wav (00:01:226): We're clear for the moment.
+- en_us_hench_tali_ss_global_hench_tali_00314370_m_wav (00:01:355): We need to try something else.
+- en_us_hench_tali_ss_global_hench_tali_00314374_m_wav (00:01:132): It's going to explode!
+- en_us_hench_tali_ss_global_hench_tali_00314377_m_wav (00:01:112): Just you and me now.
+- en_us_hench_tali_ss_global_hench_tali_00314378_m_wav (00:01:107): Down to the two of us!
+- en_us_hench_tali_ss_global_hench_tali_00318665_m_wav (00:01:107): Watch for heavy fire.
+- en_us_hench_tali_ss_global_hench_tali_00331240_m_wav (00:01:155): Hacking their systems.
+- en_us_hench_tali_ss_global_hench_tali_00331241_m_wav (00:01:201): Hacking their systems.
+- en_us_hench_tali_ss_global_hench_tali_00331242_m_wav (00:01:042): I'm hacking that one.
+- en_us_hench_tali_ss_global_hench_tali_00331243_m_wav (00:01:018): I'm hacking that one.
+- en_us_hench_tali_ss_global_hench_tali_00331249_m_wav (00:01:103): Overriding the Geth.
+- en_us_hench_tali_ss_global_hench_tali_00331250_m_wav (00:01:283): Overriding the Geth.
+- en_us_hench_tali_ss_global_hench_tali_00331251_m_wav (00:01:524): We made you weak and break you.
+- en_us_hench_tali_ss_global_hench_tali_00331252_m_wav (00:01:604): We made you, we can break you.
+- en_us_hench_tali_ss_global_hench_tali_00331255_m_wav (00:01:543): Disabling the Mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331256_m_wav (00:01:663): Disabling the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331257_m_wav (00:01:524): I'll hit the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331258_m_wav (00:01:362): I'll hit the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331260_m_wav (00:01:237): Draining their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331261_m_wav (00:01:028): Draining their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331262_m_wav (00:01:140): Their shields are mine.
+- en_us_hench_tali_ss_global_hench_tali_00331263_m_wav (00:01:176): Their shields are mine!
+- en_us_hench_tali_ss_global_hench_tali_00331264_m_wav (00:01:235): Leave the shields to me.
+- en_us_hench_tali_ss_global_hench_tali_00331265_m_wav (00:01:290): Leave the shields to me!
+- en_us_hench_tali_ss_global_hench_tali_00331266_m_wav (00:01:196): I'll hack their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331267_m_wav (00:01:133): I'll hack their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331270_m_wav (00:01:552): Deploying combat drone.
+- en_us_hench_tali_ss_global_hench_tali_00331271_m_wav (00:01:112): Combat drone away.
+- en_us_hench_tali_ss_global_hench_tali_00331272_m_wav (00:01:309): Combat drone away.
+- en_us_hench_tali_ss_global_hench_tali_00331273_m_wav (00:01:071): Combat drone ready.
+- en_us_hench_tali_ss_global_hench_tali_00331274_m_wav (00:01:240): Combat drone ready.
+- en_us_hench_tali_ss_global_hench_tali_00331275_m_wav (00:01:271): This should soften them up.
+- en_us_hench_tali_ss_global_hench_tali_00331276_m_wav (00:01:279): This should soften them up.
+- en_us_hench_tali_ss_global_hench_tali_00331277_m_wav (00:01:832): Go get him, Chatika! Good girl!
+- en_us_hench_tali_ss_global_hench_tali_00331280_m_wav (00:01:278): They're all yours, Chatika.
+- en_us_hench_tali_ss_global_hench_tali_00331282_m_wav (00:01:259): Enemy combat drones.
+- en_us_hench_tali_ss_global_hench_tali_00331284_m_wav (00:01:075): Hostile drones!
+- en_us_hench_tali_ss_global_hench_tali_00331287_m_wav (00:01:785): Watch out! That's not my drone!
+- en_us_hench_tali_ss_global_hench_tali_00331288_m_wav (00:01:474): Hey, that's not Chatika!
+- en_us_hench_tali_ss_global_hench_tali_00332271_m_wav (00:01:069): Watch out, Shepard!
+- en_us_hench_tali_ss_global_hench_tali_00332272_m_wav (00:01:214): Shepard, back off!
+- en_us_hench_tali_ss_global_hench_tali_00332273_m_wav (00:01:260): Shepard, back off!
+- en_us_hench_tali_ss_global_hench_tali_00332275_m_wav (00:01:058): Allied fire!
+- en_us_hench_tali_ss_global_hench_tali_00334310_m_wav (00:01:074): Suppressing fire!
+
+BioH_Tali_01_LOC_INT
+- en_us_hench_tali_ss_global_hench_tali_00285102_m_wav (00:01:237): Engaging target.
+- en_us_hench_tali_ss_global_hench_tali_00285112_m_wav (00:01:195): Negative, Shepard.
+- en_us_hench_tali_ss_global_hench_tali_00285113_m_wav (00:01:064): Can't get there.
+- en_us_hench_tali_ss_global_hench_tali_00285162_m_wav (00:01:129): I've got a rupture.
+- en_us_hench_tali_ss_global_hench_tali_00285168_m_wav (00:01:108): Get ready to fight!
+- en_us_hench_tali_ss_global_hench_tali_00285179_m_wav (00:01:015): Trouble to the right.
+- en_us_hench_tali_ss_global_hench_tali_00285201_m_wav (00:01:076): Looks like we're clear.
+- en_us_hench_tali_ss_global_hench_tali_00285202_m_wav (00:01:141): That's the last of them.
+- en_us_hench_tali_ss_global_hench_tali_00285231_m_wav (00:01:146): AHHHHH!
+- en_us_hench_tali_ss_global_hench_tali_00285233_m_wav (00:01:328): HUH! UGH!
+- en_us_hench_tali_ss_global_hench_tali_00285234_m_wav (00:01:862): Help!
+- en_us_hench_tali_ss_global_hench_tali_00285235_m_wav (00:01:453): H-UGH!
+- en_us_hench_tali_ss_global_hench_tali_00285236_m_wav (00:01:779): Ow!
+- en_us_hench_tali_ss_global_hench_tali_00285237_m_wav (00:01:443): Oh, fuck!
+- en_us_hench_tali_ss_global_hench_tali_00285239_m_wav (00:01:459): Ah!
+- en_us_hench_tali_ss_global_hench_tali_00285242_m_wav (00:01:041): Garrus is down.
+- en_us_hench_tali_ss_global_hench_tali_00285245_m_wav (00:01:005): Grunt is down.
+- en_us_hench_tali_ss_global_hench_tali_00285246_m_wav (00:01:022): Jacob is down.
+- en_us_hench_tali_ss_global_hench_tali_00285250_m_wav (00:01:080): Morinth is down.
+- en_us_hench_tali_ss_global_hench_tali_00285252_m_wav (00:01:159): Samara is down.
+- en_us_hench_tali_ss_global_hench_tali_00285255_m_wav (00:01:111): Kasumi's down.
+- en_us_hench_tali_ss_global_hench_tali_00285261_m_wav (00:01:048): Miranda is down.
+- en_us_hench_tali_ss_global_hench_tali_00289235_m_wav (00:01:196): Moving to position.
+- en_us_hench_tali_ss_global_hench_tali_00289237_m_wav (00:01:119): Switching to shotgun.
+- en_us_hench_tali_ss_global_hench_tali_00289251_m_wav (00:01:124): Krogan coming at us.
+- en_us_hench_tali_ss_global_hench_tali_00289252_m_wav (00:01:041): Charging Krogan.
+- en_us_hench_tali_ss_global_hench_tali_00289253_m_wav (00:01:142): Husk coming our way.
+- en_us_hench_tali_ss_global_hench_tali_00289255_m_wav (00:01:163): Varen, headed our way.
+- en_us_hench_tali_ss_global_hench_tali_00289263_m_wav (00:01:064): They're not dead yet.
+- en_us_hench_tali_ss_global_hench_tali_00289266_m_wav (00:01:065): It's still alive.
+- en_us_hench_tali_ss_global_hench_tali_00289268_m_wav (00:01:159): The Krogan's back up!
+- en_us_hench_tali_ss_global_hench_tali_00289269_m_wav (00:01:329): The Krogan's still alive.
+- en_us_hench_tali_ss_global_hench_tali_00289271_m_wav (00:01:536): We need to weaken the shields!
+- en_us_hench_tali_ss_global_hench_tali_00289272_m_wav (00:01:242): The shields are too strong.
+- en_us_hench_tali_ss_global_hench_tali_00289273_m_wav (00:01:121): Take down those shields!
+- en_us_hench_tali_ss_global_hench_tali_00289274_m_wav (00:01:033): Disable the shield.
+- en_us_hench_tali_ss_global_hench_tali_00289276_m_wav (00:01:411): That armor's too heavy!
+- en_us_hench_tali_ss_global_hench_tali_00289277_m_wav (00:01:643): I'm barely penetrating the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289278_m_wav (00:01:346): We need to weaken the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289279_m_wav (00:01:320): Have to punch through the armor.
+- en_us_hench_tali_ss_global_hench_tali_00289302_m_wav (00:01:346): I've disabled their shields.
+- en_us_hench_tali_ss_global_hench_tali_00289303_m_wav (00:01:462): Now, while their shields are down!
+- en_us_hench_tali_ss_global_hench_tali_00289304_m_wav (00:01:062): I got their shields.
+- en_us_hench_tali_ss_global_hench_tali_00314362_m_wav (00:01:342): Watch out! Heavy mech!
+- en_us_hench_tali_ss_global_hench_tali_00314363_m_wav (00:01:168): One's still standing.
+- en_us_hench_tali_ss_global_hench_tali_00314365_m_wav (00:01:226): We're clear for the moment.
+- en_us_hench_tali_ss_global_hench_tali_00314370_m_wav (00:01:355): We need to try something else.
+- en_us_hench_tali_ss_global_hench_tali_00314374_m_wav (00:01:132): It's going to explode!
+- en_us_hench_tali_ss_global_hench_tali_00314377_m_wav (00:01:112): Just you and me now.
+- en_us_hench_tali_ss_global_hench_tali_00314378_m_wav (00:01:107): Down to the two of us!
+- en_us_hench_tali_ss_global_hench_tali_00318665_m_wav (00:01:107): Watch for heavy fire.
+- en_us_hench_tali_ss_global_hench_tali_00331240_m_wav (00:01:155): Hacking their systems.
+- en_us_hench_tali_ss_global_hench_tali_00331241_m_wav (00:01:201): Hacking their systems.
+- en_us_hench_tali_ss_global_hench_tali_00331242_m_wav (00:01:042): I'm hacking that one.
+- en_us_hench_tali_ss_global_hench_tali_00331243_m_wav (00:01:018): I'm hacking that one.
+- en_us_hench_tali_ss_global_hench_tali_00331249_m_wav (00:01:103): Overriding the Geth.
+- en_us_hench_tali_ss_global_hench_tali_00331250_m_wav (00:01:283): Overriding the Geth.
+- en_us_hench_tali_ss_global_hench_tali_00331251_m_wav (00:01:524): We made you weak and break you.
+- en_us_hench_tali_ss_global_hench_tali_00331252_m_wav (00:01:604): We made you, we can break you.
+- en_us_hench_tali_ss_global_hench_tali_00331255_m_wav (00:01:543): Disabling the Mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331256_m_wav (00:01:663): Disabling the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331257_m_wav (00:01:524): I'll hit the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331258_m_wav (00:01:362): I'll hit the mech systems.
+- en_us_hench_tali_ss_global_hench_tali_00331260_m_wav (00:01:237): Draining their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331261_m_wav (00:01:028): Draining their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331262_m_wav (00:01:140): Their shields are mine.
+- en_us_hench_tali_ss_global_hench_tali_00331263_m_wav (00:01:176): Their shields are mine!
+- en_us_hench_tali_ss_global_hench_tali_00331264_m_wav (00:01:235): Leave the shields to me.
+- en_us_hench_tali_ss_global_hench_tali_00331265_m_wav (00:01:290): Leave the shields to me!
+- en_us_hench_tali_ss_global_hench_tali_00331266_m_wav (00:01:196): I'll hack their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331267_m_wav (00:01:133): I'll hack their shields.
+- en_us_hench_tali_ss_global_hench_tali_00331270_m_wav (00:01:552): Deploying combat drone.
+- en_us_hench_tali_ss_global_hench_tali_00331271_m_wav (00:01:112): Combat drone away.
+- en_us_hench_tali_ss_global_hench_tali_00331272_m_wav (00:01:309): Combat drone away.
+- en_us_hench_tali_ss_global_hench_tali_00331273_m_wav (00:01:071): Combat drone ready.
+- en_us_hench_tali_ss_global_hench_tali_00331274_m_wav (00:01:240): Combat drone ready.
+- en_us_hench_tali_ss_global_hench_tali_00331275_m_wav (00:01:271): This should soften them up.
+- en_us_hench_tali_ss_global_hench_tali_00331276_m_wav (00:01:279): This should soften them up.
+- en_us_hench_tali_ss_global_hench_tali_00331277_m_wav (00:01:832): Go get him, Chatika! Good girl!
+- en_us_hench_tali_ss_global_hench_tali_00331280_m_wav (00:01:278): They're all yours, Chatika.
+- en_us_hench_tali_ss_global_hench_tali_00331282_m_wav (00:01:259): Enemy combat drones.
+- en_us_hench_tali_ss_global_hench_tali_00331284_m_wav (00:01:075): Hostile drones!
+- en_us_hench_tali_ss_global_hench_tali_00331287_m_wav (00:01:785): Watch out! That's not my drone!
+- en_us_hench_tali_ss_global_hench_tali_00331288_m_wav (00:01:474): Hey, that's not Chatika!
+- en_us_hench_tali_ss_global_hench_tali_00332271_m_wav (00:01:069): Watch out, Shepard!
+- en_us_hench_tali_ss_global_hench_tali_00332272_m_wav (00:01:214): Shepard, back off!
+- en_us_hench_tali_ss_global_hench_tali_00332273_m_wav (00:01:260): Shepard, back off!
+- en_us_hench_tali_ss_global_hench_tali_00332275_m_wav (00:01:058): Allied fire!
+- en_us_hench_tali_ss_global_hench_tali_00334310_m_wav (00:01:074): Suppressing fire!

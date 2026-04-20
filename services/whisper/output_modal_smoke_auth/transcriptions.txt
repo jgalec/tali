@@ -1,0 +1,6 @@
+BioD_EndGm1_110ROMTali_LOC_INT
+- en_us_hench_tali_nortl_culmination_h_00264416_m_wav (00:01:931): Can't blame a girl for trying, though.
+
+BioD_Nor_111DebriefTali_LOC_INT
+- en_us_hench_tali_nortla_debrief_d_00223065_m_wav (00:01:713): I'll be in engineering if you need me.
+- en_us_player_f_nortla_debrief_d_00223076_f_wav (00:01:292): It's all a mask and tally.

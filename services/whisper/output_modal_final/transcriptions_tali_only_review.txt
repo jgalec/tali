@@ -1,0 +1,350 @@
+BioD_ProFre_201Tali_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00285242_m_wav
+- original: When the virus is down.
+- clean: Garrus is down.
+- review: none
+- changes: stem override: "When the virus is down." -> "Garrus is down."
+
+BioD_ProFre_201Tali_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00285255_m_wav
+- original: Get us this town.
+- clean: Kasumi's down.
+- review: none
+- changes: stem override: "Get us this town." -> "Kasumi's down."
+
+BioD_ProFre_201Tali_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00289268_m_wav
+- original: The Krogans back up!
+- clean: The Krogan's back up!
+- review: none
+- changes: stem override: "The Krogans back up!" -> "The Krogan's back up!"
+
+BioD_ProFre_201Tali_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331255_m_wav
+- original: Disabling the MEX systems.
+- clean: Disabling the Mech systems.
+- review: none
+- changes: stem override: "Disabling the MEX systems." -> "Disabling the Mech systems."
+
+BioD_ProFre_201Tali_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331260_m_wav
+- original: draining their shields.
+- clean: Draining their shields.
+- review: none
+- changes: exact: "draining their shields." -> "Draining their shields."
+
+BioD_ProFre_201Tali_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331271_m_wav
+- original: Combat thrown away.
+- clean: Combat drone away.
+- review: none
+- changes: stem override: "Combat thrown away." -> "Combat drone away."
+
+BioD_ProFre_201Tali_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331272_m_wav
+- original: Combat thrown away.
+- clean: Combat drone away.
+- review: none
+- changes: stem override: "Combat thrown away." -> "Combat drone away."
+
+BioD_ProFre_201Tali_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331274_m_wav
+- original: Combat throne ready.
+- clean: Combat drone ready.
+- review: none
+- changes: stem override: "Combat throne ready." -> "Combat drone ready."
+
+BioD_ProFre_201Tali_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00332275_m_wav
+- original: I light a fire.
+- clean: Allied fire!
+- review: none
+- changes: stem override: "I light a fire." -> "Allied fire!"
+
+BioD_ProFre_201Tali_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00334310_m_wav
+- original: Possessed Throne!
+- clean: Suppressing fire!
+- review: none
+- changes: stem override: "Possessed Throne!" -> "Suppressing fire!"
+
+BioH_END_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00285242_m_wav
+- original: When the virus is down.
+- clean: Garrus is down.
+- review: none
+- changes: stem override: "When the virus is down." -> "Garrus is down."
+
+BioH_END_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00285255_m_wav
+- original: Get us this town.
+- clean: Kasumi's down.
+- review: none
+- changes: stem override: "Get us this town." -> "Kasumi's down."
+
+BioH_END_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00289268_m_wav
+- original: The Krogans back up!
+- clean: The Krogan's back up!
+- review: none
+- changes: stem override: "The Krogans back up!" -> "The Krogan's back up!"
+
+BioH_END_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331255_m_wav
+- original: Disabling the MEX systems.
+- clean: Disabling the Mech systems.
+- review: none
+- changes: stem override: "Disabling the MEX systems." -> "Disabling the Mech systems."
+
+BioH_END_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331260_m_wav
+- original: draining their shields.
+- clean: Draining their shields.
+- review: none
+- changes: exact: "draining their shields." -> "Draining their shields."
+
+BioH_END_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331271_m_wav
+- original: Combat thrown away.
+- clean: Combat drone away.
+- review: none
+- changes: stem override: "Combat thrown away." -> "Combat drone away."
+
+BioH_END_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331272_m_wav
+- original: Combat thrown away.
+- clean: Combat drone away.
+- review: none
+- changes: stem override: "Combat thrown away." -> "Combat drone away."
+
+BioH_END_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331274_m_wav
+- original: Combat throne ready.
+- clean: Combat drone ready.
+- review: none
+- changes: stem override: "Combat throne ready." -> "Combat drone ready."
+
+BioH_END_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00332275_m_wav
+- original: I light a fire.
+- clean: Allied fire!
+- review: none
+- changes: stem override: "I light a fire." -> "Allied fire!"
+
+BioH_END_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00334310_m_wav
+- original: Possessed Throne!
+- clean: Suppressing fire!
+- review: none
+- changes: stem override: "Possessed Throne!" -> "Suppressing fire!"
+
+BioH_END_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00285242_m_wav
+- original: When the virus is down.
+- clean: Garrus is down.
+- review: none
+- changes: stem override: "When the virus is down." -> "Garrus is down."
+
+BioH_END_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00285255_m_wav
+- original: Get us this town.
+- clean: Kasumi's down.
+- review: none
+- changes: stem override: "Get us this town." -> "Kasumi's down."
+
+BioH_END_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00289268_m_wav
+- original: The Krogans back up!
+- clean: The Krogan's back up!
+- review: none
+- changes: stem override: "The Krogans back up!" -> "The Krogan's back up!"
+
+BioH_END_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331255_m_wav
+- original: Disabling the MEX systems.
+- clean: Disabling the Mech systems.
+- review: none
+- changes: stem override: "Disabling the MEX systems." -> "Disabling the Mech systems."
+
+BioH_END_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331260_m_wav
+- original: draining their shields.
+- clean: Draining their shields.
+- review: none
+- changes: exact: "draining their shields." -> "Draining their shields."
+
+BioH_END_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331271_m_wav
+- original: Combat thrown away.
+- clean: Combat drone away.
+- review: none
+- changes: stem override: "Combat thrown away." -> "Combat drone away."
+
+BioH_END_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331272_m_wav
+- original: Combat thrown away.
+- clean: Combat drone away.
+- review: none
+- changes: stem override: "Combat thrown away." -> "Combat drone away."
+
+BioH_END_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331274_m_wav
+- original: Combat throne ready.
+- clean: Combat drone ready.
+- review: none
+- changes: stem override: "Combat throne ready." -> "Combat drone ready."
+
+BioH_END_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00332275_m_wav
+- original: I light a fire.
+- clean: Allied fire!
+- review: none
+- changes: stem override: "I light a fire." -> "Allied fire!"
+
+BioH_END_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00334310_m_wav
+- original: Possessed Throne!
+- clean: Suppressing fire!
+- review: none
+- changes: stem override: "Possessed Throne!" -> "Suppressing fire!"
+
+BioH_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00285242_m_wav
+- original: When the virus is down.
+- clean: Garrus is down.
+- review: none
+- changes: stem override: "When the virus is down." -> "Garrus is down."
+
+BioH_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00285255_m_wav
+- original: Get us this town.
+- clean: Kasumi's down.
+- review: none
+- changes: stem override: "Get us this town." -> "Kasumi's down."
+
+BioH_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00289268_m_wav
+- original: The Krogans back up!
+- clean: The Krogan's back up!
+- review: none
+- changes: stem override: "The Krogans back up!" -> "The Krogan's back up!"
+
+BioH_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331255_m_wav
+- original: Disabling the MEX systems.
+- clean: Disabling the Mech systems.
+- review: none
+- changes: stem override: "Disabling the MEX systems." -> "Disabling the Mech systems."
+
+BioH_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331260_m_wav
+- original: draining their shields.
+- clean: Draining their shields.
+- review: none
+- changes: exact: "draining their shields." -> "Draining their shields."
+
+BioH_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331271_m_wav
+- original: Combat thrown away.
+- clean: Combat drone away.
+- review: none
+- changes: stem override: "Combat thrown away." -> "Combat drone away."
+
+BioH_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331272_m_wav
+- original: Combat thrown away.
+- clean: Combat drone away.
+- review: none
+- changes: stem override: "Combat thrown away." -> "Combat drone away."
+
+BioH_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331274_m_wav
+- original: Combat throne ready.
+- clean: Combat drone ready.
+- review: none
+- changes: stem override: "Combat throne ready." -> "Combat drone ready."
+
+BioH_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00332275_m_wav
+- original: I light a fire.
+- clean: Allied fire!
+- review: none
+- changes: stem override: "I light a fire." -> "Allied fire!"
+
+BioH_Tali_00_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00334310_m_wav
+- original: Possessed Throne!
+- clean: Suppressing fire!
+- review: none
+- changes: stem override: "Possessed Throne!" -> "Suppressing fire!"
+
+BioH_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00285242_m_wav
+- original: When the virus is down.
+- clean: Garrus is down.
+- review: none
+- changes: stem override: "When the virus is down." -> "Garrus is down."
+
+BioH_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00285255_m_wav
+- original: Get us this town.
+- clean: Kasumi's down.
+- review: none
+- changes: stem override: "Get us this town." -> "Kasumi's down."
+
+BioH_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00289268_m_wav
+- original: The Krogans back up!
+- clean: The Krogan's back up!
+- review: none
+- changes: stem override: "The Krogans back up!" -> "The Krogan's back up!"
+
+BioH_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331255_m_wav
+- original: Disabling the MEX systems.
+- clean: Disabling the Mech systems.
+- review: none
+- changes: stem override: "Disabling the MEX systems." -> "Disabling the Mech systems."
+
+BioH_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331260_m_wav
+- original: draining their shields.
+- clean: Draining their shields.
+- review: none
+- changes: exact: "draining their shields." -> "Draining their shields."
+
+BioH_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331271_m_wav
+- original: Combat thrown away.
+- clean: Combat drone away.
+- review: none
+- changes: stem override: "Combat thrown away." -> "Combat drone away."
+
+BioH_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331272_m_wav
+- original: Combat thrown away.
+- clean: Combat drone away.
+- review: none
+- changes: stem override: "Combat thrown away." -> "Combat drone away."
+
+BioH_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00331274_m_wav
+- original: Combat throne ready.
+- clean: Combat drone ready.
+- review: none
+- changes: stem override: "Combat throne ready." -> "Combat drone ready."
+
+BioH_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00332275_m_wav
+- original: I light a fire.
+- clean: Allied fire!
+- review: none
+- changes: stem override: "I light a fire." -> "Allied fire!"
+
+BioH_Tali_01_LOC_INT
+- stem: en_us_hench_tali_ss_global_hench_tali_00334310_m_wav
+- original: Possessed Throne!
+- clean: Suppressing fire!
+- review: none
+- changes: stem override: "Possessed Throne!" -> "Suppressing fire!"
+
