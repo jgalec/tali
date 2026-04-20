@@ -9,6 +9,10 @@ Source file:
 - `services/audio_eval/evaluate_tali_likeness.py`
 - `services/audio_eval/modal_pronunciation_whisper_app.py`
 
+Related note:
+
+- `docs/audio-evaluation-process.md`
+
 ## What it does
 
 The evaluator compares generated WAV files in `output/` against the local Tali reference bank in `voices/me2_voice_reference_candidates/`.

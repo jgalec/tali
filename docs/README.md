@@ -9,6 +9,7 @@ This folder collects notes about the Tali audio workflow and the Whisper and Voi
 - `future-tts-notes.md`: short notes for possible future TTS work
 - `qwen3-tts-notes.md`: why Qwen3-TTS is relevant to this repo and how to treat it
 - `audio-evaluation.md`: how to score generated clips with local acoustic metrics and optional Modal speaker embeddings
+- `audio-evaluation-process.md`: implementation history and rationale for the current Tali evaluation pipeline
 
 ## Whisper
 
