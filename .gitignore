@@ -1,0 +1,43 @@
+# Legal / source assets not safe to publish
+voices/
+
+# Local environments
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.nox/
+.tox/
+.cache/
+build/
+dist/
+site/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and local oddities
+*.log
+nul
