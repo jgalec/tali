@@ -1,4 +1,17 @@
 {
+  "speaker_service_url": "https://rsch--audio-eval-speaker-embeddings-fastapi-app.modal.run",
+  "speaker_service_health": {
+    "status": "ok",
+    "sample_rate": 16000,
+    "auth_enabled": true,
+    "primary_backend": "speechbrain_ecapa",
+    "models": {
+      "speechbrain_ecapa": "speechbrain/spkrec-ecapa-voxceleb",
+      "wavlm_sv": "microsoft/wavlm-base-plus-sv",
+      "pyannote_embedding": "pyannote/embedding"
+    },
+    "pyannote_status": "HF token required and user conditions must be accepted for pyannote/embedding."
+  },
   "asr_service_url": "https://rsch--audio-eval-whisper-fastapi-app.modal.run",
   "asr_service_health": {
     "status": "ok",
@@ -7,6 +20,12 @@
     "compute_type": "float16",
     "auth_enabled": true
   },
+  "speaker_backends_used": [
+    "speechbrain_ecapa",
+    "wavlm_sv",
+    "pyannote_embedding"
+  ],
+  "pyannote_requested": true,
   "identity_weight": 0.7,
   "pronunciation_weight": 0.3,
   "emotion_evaluated": false,
@@ -14,16 +33,22 @@
     {
       "model": "qwen-0.6b",
       "clips": 25,
-      "avg_identity_score": 83.14,
+      "avg_identity_score": 87.098,
+      "avg_ecapa_identity_score": 83.14,
+      "avg_wavlm_identity_score": 97.278,
+      "avg_pyannote_identity_score": 80.875,
       "avg_pronunciation_score": 99.632,
-      "avg_tali_likeness_score": 88.088
+      "avg_tali_likeness_score": 90.858
     },
     {
       "model": "qwen-1.7b",
       "clips": 25,
-      "avg_identity_score": 81.401,
+      "avg_identity_score": 86.227,
+      "avg_ecapa_identity_score": 81.401,
+      "avg_wavlm_identity_score": 96.323,
+      "avg_pyannote_identity_score": 80.957,
       "avg_pronunciation_score": 99.811,
-      "avg_tali_likeness_score": 86.924
+      "avg_tali_likeness_score": 90.302
     }
   ]
 }

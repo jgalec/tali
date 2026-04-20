@@ -1,3 +1,3 @@
-model,clips,avg_identity_score,avg_pronunciation_score,avg_tali_likeness_score
-qwen-0.6b,25,83.14,99.632,88.088
-qwen-1.7b,25,81.401,99.811,86.924
+model,clips,avg_identity_score,avg_ecapa_identity_score,avg_wavlm_identity_score,avg_pyannote_identity_score,avg_pronunciation_score,avg_tali_likeness_score
+qwen-0.6b,25,87.098,83.14,97.278,80.875,99.632,90.858
+qwen-1.7b,25,86.227,81.401,96.323,80.957,99.811,90.302

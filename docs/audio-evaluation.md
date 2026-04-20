@@ -41,7 +41,13 @@ Source file:
 
 - `services/audio_eval/evaluate_tali_likeness.py`
 
-This evaluator reuses the speaker-identity score from the main audio evaluator and adds a pronunciation score based on Whisper transcriptions compared against the expected prompt text.
+This evaluator builds an identity ensemble and adds a pronunciation score based on Whisper transcriptions compared against the expected prompt text.
+
+Current identity stack:
+
+- `speechbrain/spkrec-ecapa-voxceleb`
+- `microsoft/wavlm-base-plus-sv`
+- `pyannote/embedding` when a Hugging Face token with accepted access is provided
 
 Current blend:
 
@@ -52,7 +58,11 @@ Current blend:
 
 The local evaluator can also use a remote speaker-embedding service on Modal.
 
-That service uses `speechbrain/spkrec-ecapa-voxceleb` so the score is not only based on acoustic shape, but also on a speaker-verification embedding designed for voice identity.
+That service now exposes a small ensemble of identity backends:
+
+- `speechbrain/spkrec-ecapa-voxceleb`
+- `microsoft/wavlm-base-plus-sv`
+- optional `pyannote/embedding`
 
 ### Deploy the Modal service
 
@@ -71,6 +81,11 @@ Optional auth secret expected by the service:
 - Modal secret name: `audio-eval-api-auth`
 - env var inside the container: `AUDIO_EVAL_AUTH_TOKEN`
 
+Optional gated model token:
+
+- root `.env` key: `AUDIO_EVAL_PYANNOTE_HF_TOKEN`
+- this must be a Hugging Face token from an account that already accepted access to `pyannote/embedding`
+
 ### What the service exposes
 
 - `GET /health`
@@ -78,6 +93,8 @@ Optional auth secret expected by the service:
 - `POST /v1/audio/compare`
 
 The local evaluator uses `/v1/audio/embed`.
+
+The service stays backward-compatible with the original ECAPA-only response, but it now also returns per-model embeddings and metadata for the full identity ensemble.
 
 ## Optional pronunciation service with Modal
 
@@ -156,6 +173,12 @@ Tali-likeness pass:
 python services/audio_eval/evaluate_tali_likeness.py
 ```
 
+With optional pyannote access in `.env`:
+
+```dotenv
+AUDIO_EVAL_PYANNOTE_HF_TOKEN=YOUR_HF_TOKEN
+```
+
 Optional arguments:
 
 ```bash
@@ -201,6 +224,13 @@ The Tali-likeness pass writes:
 - `versus.csv`: direct `qwen-0.6b` vs `qwen-1.7b` comparison per prompt line
 - `model_summary.csv`: average score per model under the new rubric
 
+The identity-related columns are now broken down by backend so you can inspect:
+
+- ensemble identity
+- ECAPA identity
+- WavLM identity
+- pyannote identity when available
+
 Higher is better.
 
 ## Current design choice
@@ -209,4 +239,4 @@ The local evaluator does not require extra Python packages.
 
 It uses FFmpeg plus the Python standard library so it can run in the current repo without setting up a separate environment first.
 
-The stronger speaker-identity path is offloaded to Modal, where `speechbrain` and `torchaudio` can run without affecting the lightweight local workflow.
+The stronger speaker-identity path is offloaded to Modal, where `speechbrain`, `transformers`, and optional `pyannote.audio` can run without affecting the lightweight local workflow.
