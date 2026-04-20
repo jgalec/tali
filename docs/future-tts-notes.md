@@ -4,6 +4,7 @@ Reference for later:
 
 - Unsloth TTS fine-tuning guide: `https://unsloth.ai/docs/basics/text-to-speech-tts-fine-tuning`
 - `docs/qwen3-tts-notes.md`: current notes on why `Qwen3-TTS` is relevant here
+- `docs/unsloth-studio-and-modal.md`: future note on how local fine-tuning work could integrate with Modal
 
 Current status:
 
