@@ -50,6 +50,11 @@ DEFAULT_EVAL_LANGUAGE = os.getenv("AUDIO_EVAL_ASR_LANGUAGE", "en")
 REFERENCE_DIR = WORKSPACE_ROOT / "voices" / "me2_voice_reference_candidates"
 IDENTITY_WEIGHT = 0.7
 PRONUNCIATION_WEIGHT = 0.3
+DOC_NOTE_PATHS = {
+    "Voice Lab Plan": WORKSPACE_ROOT / "docs" / "voice-lab-ui-plan.md",
+    "Audio Evaluation": WORKSPACE_ROOT / "docs" / "audio-evaluation.md",
+    "Cloning vs Fine-Tuning": WORKSPACE_ROOT / "docs" / "voice-cloning-vs-fine-tuning.md",
+}
 
 SUPPORTED_ENGINES = ["qwen", "qwen_custom_voice", "luxtts", "chatterbox", "chatterbox_turbo", "tada", "kokoro"]
 SUPPORTED_MODEL_SIZES = ["1.7B", "0.6B", "1B", "3B"]
@@ -172,6 +177,19 @@ def profiles_choices(profiles_payload: list[dict[str, Any]]) -> list[tuple[str, 
 
 def format_json(payload: Any) -> str:
     return json.dumps(payload, indent=2, ensure_ascii=True)
+
+
+def read_markdown(path: Path) -> str:
+    if not path.exists():
+        return f"Missing file: `{path}`"
+    return path.read_text(encoding="utf-8")
+
+
+def load_doc_note(label: str) -> str:
+    path = DOC_NOTE_PATHS.get(label)
+    if path is None:
+        raise gr.Error(f"Unknown note: {label}")
+    return read_markdown(path)
 
 
 def normalize_text(value: str) -> str:
@@ -500,70 +518,200 @@ def generate_line(
 
 with gr.Blocks(title="Tali Voice Lab") as demo:
     gr.Markdown("# Tali Voice Lab")
-    gr.Markdown("Small local workbench for the current Voicebox-based cloning workflow.")
+    gr.Markdown(
+        "Local workbench for the current Tali cloning workflow. Move left to right: connect to the backend, prepare a profile, generate a line, then evaluate the result."
+    )
 
-    with gr.Row():
-        with gr.Column(scale=1):
-            gr.Markdown("## Backend")
-            base_url = gr.Textbox(label="Voicebox base URL", value=DEFAULT_BASE_URL, placeholder="https://...modal.run")
-            auth_token = gr.Textbox(label="Auth token", value=DEFAULT_AUTH_TOKEN, type="password")
-            health_button = gr.Button("Check health")
-            health_status = gr.Textbox(label="Connection status", interactive=False)
-            health_json = gr.Code(label="Health JSON", language="json")
+    with gr.Tabs():
+        with gr.Tab("1. Connect"):
+            gr.Markdown("## Backend Connection")
+            gr.Markdown("Start here. This section tells the UI where your remote Voicebox backend lives, whether the token works, and which profiles are currently available on the backend.")
+            with gr.Row():
+                with gr.Column(scale=1):
+                    gr.Markdown("### 1. Voicebox base URL")
+                    gr.Markdown("Paste the base URL of the Voicebox backend here. The UI sends all health, profile, upload, and generation requests to this server.")
+                    base_url = gr.Textbox(label="Voicebox base URL", value=DEFAULT_BASE_URL, placeholder="https://...modal.run")
 
-            gr.Markdown("## Profiles")
-            refresh_profiles_button = gr.Button("Load profiles")
-            profile_selector = gr.Dropdown(label="Existing profile", choices=[], value=None)
-            profiles_json = gr.Code(label="Profiles JSON", language="json")
+                    gr.Markdown("### 2. Auth token")
+                    gr.Markdown("Use the bearer token that protects the Voicebox backend. If the token is wrong, health checks and all later actions will fail.")
+                    auth_token = gr.Textbox(label="Auth token", value=DEFAULT_AUTH_TOKEN, type="password")
 
-        with gr.Column(scale=1):
-            gr.Markdown("## Create profile")
-            profile_name = gr.Textbox(label="Profile name")
-            profile_description = gr.Textbox(label="Description", lines=3)
-            profile_language = gr.Dropdown(label="Language", choices=SUPPORTED_LANGUAGES, value="en")
-            default_engine = gr.Dropdown(label="Default engine", choices=SUPPORTED_ENGINES, value="qwen")
-            create_profile_button = gr.Button("Create profile")
-            created_profile_id = gr.Textbox(label="Created profile id", interactive=False)
-            create_profile_json = gr.Code(label="Create profile response", language="json")
+                    gr.Markdown("### 3. Connect actions")
+                    gr.Markdown("Use `Check health` first to verify the backend is reachable. Use `Load profiles` after that to fetch the list of clone profiles stored on the server.")
+                    with gr.Row():
+                        health_button = gr.Button("Check health", variant="primary")
+                        refresh_profiles_button = gr.Button("Load profiles")
 
-    with gr.Row():
-        with gr.Column(scale=1):
-            gr.Markdown("## Add sample")
-            sample_file = gr.Audio(label="Reference sample", type="filepath")
-            reference_text = gr.Textbox(label="Reference text", lines=4)
-            add_sample_button = gr.Button("Upload sample to selected profile")
-            add_sample_json = gr.Code(label="Add sample response", language="json")
+                    gr.Markdown("### 4. Connection status")
+                    gr.Markdown("This field gives you a quick human-readable result for the last connectivity check.")
+                    health_status = gr.Textbox(label="Connection status", interactive=False)
 
-        with gr.Column(scale=1):
-            gr.Markdown("## Generate")
-            generation_text = gr.Textbox(label="Target text", lines=6)
-            generation_language = gr.Dropdown(label="Generation language", choices=SUPPORTED_LANGUAGES, value="en")
-            generation_engine = gr.Dropdown(label="Engine", choices=SUPPORTED_ENGINES, value="qwen")
-            generation_model_size = gr.Dropdown(label="Model size", choices=SUPPORTED_MODEL_SIZES, value="1.7B")
-            generation_instruct = gr.Textbox(label="Optional instruct", lines=2)
-            generation_seed = gr.Number(label="Seed", precision=0, value=None)
-            generation_normalize = gr.Checkbox(label="Normalize output", value=True)
-            generation_max_chunk_chars = gr.Slider(label="Max chunk chars", minimum=100, maximum=5000, step=50, value=800)
-            generation_crossfade = gr.Slider(label="Crossfade ms", minimum=0, maximum=500, step=10, value=50)
-            generate_button = gr.Button("Generate")
+                    gr.Markdown("### 5. Existing profile")
+                    gr.Markdown("This dropdown is filled from the backend. Pick an existing profile here before uploading a sample or generating a new line.")
+                    profile_selector = gr.Dropdown(label="Existing profile", choices=[], value=None)
+                with gr.Column(scale=1):
+                    gr.Markdown("### 6. Health JSON")
+                    gr.Markdown("Raw `/health` response from the backend. Useful for checking GPU, backend type, model load state, and other low-level details.")
+                    health_json = gr.Code(label="Health JSON", language="json")
 
-    with gr.Row():
-        with gr.Column(scale=1):
-            generation_id = gr.Textbox(label="Generation id", interactive=False)
-            generation_response_json = gr.Code(label="Generate response", language="json")
-            generation_status_json = gr.Code(label="Final status", language="json")
-        with gr.Column(scale=1):
-            generated_audio = gr.Audio(label="Generated audio", type="filepath", interactive=False)
+                    gr.Markdown("### 7. Profiles JSON")
+                    gr.Markdown("Raw `/profiles` response from the backend. Use this when you want to inspect profile metadata or debug what the server is returning.")
+                    profiles_json = gr.Code(label="Profiles JSON", language="json")
 
-    with gr.Row():
-        with gr.Column(scale=1):
-            gr.Markdown("## Evaluate generated audio")
-            evaluation_expected_text = gr.Textbox(label="Expected text", lines=4)
-            evaluate_button = gr.Button("Evaluate current audio")
-            evaluation_transcript = gr.Textbox(label="ASR transcript", lines=4, interactive=False)
-        with gr.Column(scale=1):
-            evaluation_summary = gr.Textbox(label="Evaluation summary", lines=6, interactive=False)
-            evaluation_json = gr.Code(label="Evaluation JSON", language="json")
+            with gr.Accordion("Section notes", open=False):
+                gr.Markdown(read_markdown(DOC_NOTE_PATHS["Voice Lab Plan"]))
+
+        with gr.Tab("2. Profile Lab"):
+            gr.Markdown("## Profile Setup")
+            gr.Markdown("Use this section to create a fresh clone profile or to improve an existing one by uploading a new reference sample and its transcript.")
+            with gr.Row():
+                with gr.Column(scale=1):
+                    gr.Markdown("### Create Profile")
+                    gr.Markdown("Create a new empty cloned profile on the backend. After creation, reload profiles and select the new profile before adding samples.")
+
+                    gr.Markdown("#### Profile name")
+                    gr.Markdown("Short human-readable name for the profile. This is what you will recognize later in the profile list.")
+                    profile_name = gr.Textbox(label="Profile name")
+
+                    gr.Markdown("#### Description")
+                    gr.Markdown("Optional note describing the intended voice quality, mood, or reference bundle for this profile.")
+                    profile_description = gr.Textbox(label="Description", lines=3)
+
+                    gr.Markdown("#### Language")
+                    gr.Markdown("Primary language for the profile metadata. For this repo, `en` is usually the correct value.")
+                    profile_language = gr.Dropdown(label="Language", choices=SUPPORTED_LANGUAGES, value="en")
+
+                    gr.Markdown("#### Default engine")
+                    gr.Markdown("Default TTS engine the backend should prefer for this profile. `qwen` is the current default path for Tali experiments.")
+                    default_engine = gr.Dropdown(label="Default engine", choices=SUPPORTED_ENGINES, value="qwen")
+
+                    gr.Markdown("#### Create action")
+                    gr.Markdown("Sends the profile creation request to the backend.")
+                    create_profile_button = gr.Button("Create profile", variant="primary")
+
+                    gr.Markdown("#### Created profile id")
+                    gr.Markdown("Backend-generated identifier for the profile you just created.")
+                    created_profile_id = gr.Textbox(label="Created profile id", interactive=False)
+
+                    gr.Markdown("#### Create profile response")
+                    gr.Markdown("Raw JSON response returned after profile creation.")
+                    create_profile_json = gr.Code(label="Create profile response", language="json")
+                with gr.Column(scale=1):
+                    gr.Markdown("### Add Reference Sample")
+                    gr.Markdown("Attach a real audio clip to the currently selected profile. This is the core reference material that the backend uses for short-reference cloning.")
+
+                    gr.Markdown("#### Reference sample")
+                    gr.Markdown("Upload the audio clip that should teach the backend how this profile sounds.")
+                    sample_file = gr.Audio(label="Reference sample", type="filepath")
+
+                    gr.Markdown("#### Reference text")
+                    gr.Markdown("Transcript that exactly matches the uploaded sample. Good alignment here matters a lot for clone quality.")
+                    reference_text = gr.Textbox(label="Reference text", lines=6)
+
+                    gr.Markdown("#### Upload action")
+                    gr.Markdown("Uploads the sample to the profile selected in the Connect tab.")
+                    add_sample_button = gr.Button("Upload sample to selected profile", variant="primary")
+
+                    gr.Markdown("#### Add sample response")
+                    gr.Markdown("Raw JSON response returned after the sample is stored on the backend.")
+                    add_sample_json = gr.Code(label="Add sample response", language="json")
+
+            with gr.Accordion("Why references matter", open=False):
+                gr.Markdown(read_markdown(DOC_NOTE_PATHS["Cloning vs Fine-Tuning"]))
+
+        with gr.Tab("3. Generate"):
+            gr.Markdown("## Generation")
+            gr.Markdown("Once a profile is ready, use this section to synthesize a new line and inspect both the returned metadata and the final audio file.")
+            with gr.Row():
+                with gr.Column(scale=1):
+                    gr.Markdown("### 1. Target text")
+                    gr.Markdown("The exact new line you want the backend to speak using the selected profile.")
+                    generation_text = gr.Textbox(label="Target text", lines=8)
+
+                    gr.Markdown("### 2. Optional instruct")
+                    gr.Markdown("Optional style hint passed to the engine. Leave empty if you want the cleanest baseline test.")
+                    generation_instruct = gr.Textbox(label="Optional instruct", lines=3)
+
+                    gr.Markdown("### 3. Seed")
+                    gr.Markdown("Optional random seed. Use this when you want more repeatable runs while comparing prompts or models.")
+                    generation_seed = gr.Number(label="Seed", precision=0, value=None)
+
+                    gr.Markdown("### 4. Normalize output")
+                    gr.Markdown("If enabled, the backend normalizes output loudness before returning the WAV.")
+                    generation_normalize = gr.Checkbox(label="Normalize output", value=True)
+                with gr.Column(scale=1):
+                    gr.Markdown("### 5. Generation language")
+                    gr.Markdown("Language code passed to the backend for the generated line.")
+                    generation_language = gr.Dropdown(label="Generation language", choices=SUPPORTED_LANGUAGES, value="en")
+
+                    gr.Markdown("### 6. Engine")
+                    gr.Markdown("TTS engine to use on the backend. `qwen` is the current main path for Tali tests.")
+                    generation_engine = gr.Dropdown(label="Engine", choices=SUPPORTED_ENGINES, value="qwen")
+
+                    gr.Markdown("### 7. Model size")
+                    gr.Markdown("Model size for engines that support it. This is where you can compare `0.6B` vs `1.7B` style runs.")
+                    generation_model_size = gr.Dropdown(label="Model size", choices=SUPPORTED_MODEL_SIZES, value="1.7B")
+
+                    gr.Markdown("### 8. Max chunk chars")
+                    gr.Markdown("Upper limit for chunk splitting when the text is long. Larger values keep more of the line together, smaller values are safer for long prompts.")
+                    generation_max_chunk_chars = gr.Slider(label="Max chunk chars", minimum=100, maximum=5000, step=50, value=800)
+
+                    gr.Markdown("### 9. Crossfade ms")
+                    gr.Markdown("Crossfade between chunks when the backend has to split the line. Keep it low for short tests.")
+                    generation_crossfade = gr.Slider(label="Crossfade ms", minimum=0, maximum=500, step=10, value=50)
+
+                    gr.Markdown("### 10. Generate action")
+                    gr.Markdown("Submits the generation request, waits for completion, and downloads the final WAV back into the UI.")
+                    generate_button = gr.Button("Generate", variant="primary")
+
+            with gr.Row():
+                with gr.Column(scale=1):
+                    gr.Markdown("### 11. Generated audio")
+                    gr.Markdown("The final WAV returned by the backend after the generation finishes.")
+                    generated_audio = gr.Audio(label="Generated audio", type="filepath", interactive=False)
+
+                    gr.Markdown("### 12. Generation id")
+                    gr.Markdown("Unique backend identifier for this generation. Useful if you later want to inspect the same generation directly on the backend.")
+                    generation_id = gr.Textbox(label="Generation id", interactive=False)
+                with gr.Column(scale=1):
+                    gr.Markdown("### 13. Generate response")
+                    gr.Markdown("Raw JSON returned immediately after the generation request is accepted.")
+                    generation_response_json = gr.Code(label="Generate response", language="json")
+
+                    gr.Markdown("### 14. Final status")
+                    gr.Markdown("Parsed final status payload from the backend's status stream. This is where you confirm the generation actually completed.")
+                    generation_status_json = gr.Code(label="Final status", language="json")
+
+            with gr.Accordion("Generation workflow notes", open=False):
+                gr.Markdown(read_markdown(DOC_NOTE_PATHS["Voice Lab Plan"]))
+
+        with gr.Tab("4. Evaluate"):
+            gr.Markdown("## Tali-Likeness Evaluation")
+            gr.Markdown("This section scores the current audio with the same identity and pronunciation stack used elsewhere in the repo. It is a technical ranking aid, not a substitute for listening.")
+            with gr.Row():
+                with gr.Column(scale=1):
+                    gr.Markdown("### 1. Expected text")
+                    gr.Markdown("Paste the exact line that the audio is supposed to say. This is used to measure pronunciation through ASR alignment.")
+                    evaluation_expected_text = gr.Textbox(label="Expected text", lines=6)
+
+                    gr.Markdown("### 2. Evaluate action")
+                    gr.Markdown("Runs the speaker ensemble plus Whisper transcription against the current audio loaded in the Generate tab.")
+                    evaluate_button = gr.Button("Evaluate current audio", variant="primary")
+
+                    gr.Markdown("### 3. ASR transcript")
+                    gr.Markdown("Transcript detected by the Whisper evaluation service. Compare this with the expected text to spot pronunciation drift.")
+                    evaluation_transcript = gr.Textbox(label="ASR transcript", lines=5, interactive=False)
+
+                    gr.Markdown("### 4. Evaluation summary")
+                    gr.Markdown("Short human-readable summary showing best matching reference, identity score, pronunciation score, and final Tali-likeness score.")
+                    evaluation_summary = gr.Textbox(label="Evaluation summary", lines=7, interactive=False)
+                with gr.Column(scale=1):
+                    gr.Markdown("### 5. Evaluation JSON")
+                    gr.Markdown("Detailed machine-readable evaluation output, including backend-specific identity subscores and error rates.")
+                    evaluation_json = gr.Code(label="Evaluation JSON", language="json")
+
+            with gr.Accordion("Evaluation notes", open=False):
+                gr.Markdown(read_markdown(DOC_NOTE_PATHS["Audio Evaluation"]))
 
     health_button.click(check_health, inputs=[base_url, auth_token], outputs=[health_status, health_json])
     refresh_profiles_button.click(load_profiles, inputs=[base_url, auth_token], outputs=[profile_selector, profiles_json])
