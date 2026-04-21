@@ -10,6 +10,7 @@ This folder collects notes about the Tali audio workflow and the Whisper and Voi
 - `qwen3-tts-notes.md`: why Qwen3-TTS is relevant to this repo and how to treat it
 - `voice-cloning-vs-fine-tuning.md`: when to prefer short-reference cloning and when fine-tuning becomes worth it
 - `unsloth-studio-and-modal.md`: how Unsloth Studio could fit future fine-tuning work and integrate with Modal
+- `voice-lab-ui-plan.md`: plan for a small local UI on top of the current Voicebox workflow
 - `audio-evaluation.md`: how to score generated clips with local acoustic metrics and optional Modal speaker embeddings
 - `audio-evaluation-process.md`: implementation history and rationale for the current Tali evaluation pipeline
 
